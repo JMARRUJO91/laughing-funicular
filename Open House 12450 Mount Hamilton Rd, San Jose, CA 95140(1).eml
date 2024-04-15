@@ -1,3 +1,43 @@
+              - name: yq - portable yaml processor
+                uses: mikefarah/yq@v4.43.1
+            
+
+
+              - name: Checkout
+                uses: actions/checkout@v4.1.1
+            
+
+
+
+              - name: Setup Node.js environment
+                uses: actions/setup-node@v4.0.2
+            
+
+
+
+              - name: Debugging with tmate
+                uses: mxschmitt/action-tmate@v3.17
+            17:21:01.269 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317. (Reason: CORS request did not succeed). Status code: (null).
+17:21:01.270 The resource at “<URL>” was blocked because content blocking is enabled. 2
+17:21:01.270 None of the “sha512” hashes in the integrity attribute match the content of the subresource. The computed hash is “z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==”. Address
+17:21:01.347 Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead jquery-1.10.2.min.js:19:22
+17:21:01.406 Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content. jquery-1.10.2.min.js:23:26534
+17:21:01.536 downloadable font: Glyph bbox was incorrect (glyph ids 48 70 77 96 97 98 99 102 103 104 105 127 134 135 138 154 174 177 179 181 193 199 200 232 233 287 288 289 290 294 296 299 305 306 307 324 325 334 336 338 341 344 345 346 347 348 349 354 362 366 367 368 369 372 373 381 382 385 386 429 446 451 459 460) (font-family: "FontAwesome" style:normal weight:400 stretch:100 src index:1) source: https://netdna.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0
+17:21:02.598 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317. (Reason: CORS request did not succeed). Status code: (null).
+17:21:02.599 None of the “sha512” hashes in the integrity attribute match the content of the subresource. The computed hash is “z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==”. Address
+17:21:02.962 downloadable font: Glyph bbox was incorrect (glyph ids 27 29 123 124 131 143 144 171 188 191 212 217 218) (font-family: "Glyphicons Halflings" style:normal weight:400 stretch:100 src index:1) source: https://payments.sccgov.org/PropertyTax/fonts/glyphicons-halflings-regular.woff
+
+
+
+17:21:01.269 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317. (Reason: CORS request did not succeed). Status code: (null).
+17:21:01.270 The resource at “<URL>” was blocked because content blocking is enabled. 2
+17:21:01.270 None of the “sha512” hashes in the integrity attribute match the content of the subresource. The computed hash is “z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==”. Address
+17:21:01.347 Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead jquery-1.10.2.min.js:19:22
+17:21:01.406 Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content. jquery-1.10.2.min.js:23:26534
+17:21:01.536 downloadable font: Glyph bbox was incorrect (glyph ids 48 70 77 96 97 98 99 102 103 104 105 127 134 135 138 154 174 177 179 181 193 199 200 232 233 287 288 289 290 294 296 299 305 306 307 324 325 334 336 338 341 344 345 346 347 348 349 354 362 366 367 368 369 372 373 381 382 385 386 429 446 451 459 460) (font-family: "FontAwesome" style:normal weight:400 stretch:100 src index:1) source: https://netdna.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0
+17:21:02.598 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317. (Reason: CORS request did not succeed). Status code: (null).
+17:21:02.599 None of the “sha512” hashes in the integrity attribute match the content of the subresource. The computed hash is “z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==”. Address
+17:21:02.962 downloadable font: Glyph bbox was incorrect (glyph ids 27 29 123 124 131 143 144 171 188 191 212 217 218) (font-family: "Glyphicons Halflings" style:normal weight:400 stretch:100 src index:1) source: https://payments.sccgov.org/PropertyTax/fonts/glyphicons-halflings-regular.woff
 Delivered-To: csiah0323i@gmail.com
 Received: by 2002:a05:6f02:f07:b0:68:43bf:36ef with SMTP id c7csp778713rch;
         Wed, 3 Apr 2024 21:35:46 -0700 (PDT)
