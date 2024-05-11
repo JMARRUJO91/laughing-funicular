@@ -1,0 +1,89 @@
+Toggle navigation
+LUCI Scheduler
+All projects chromium   Linux FYI Experimental Release (Intel UHD 630)
+State: WAITING
+Schedule: triggered
+Next run: -
+Actions: 
+Definition (rev 86d61c4920df2ff353a3476852bbd94719c020fb)
+Task
+buildbucket: <
+  server: "cr-buildbucket.appspot.com"
+  bucket: "ci"
+  builder: "Linux FYI Experimental Release (Intel UHD 630)"
+>
+Triggering policy
+kind: GREEDY_BATCHING
+max_concurrent_invocations: 1
+max_batch_size: 1000
+Last triage (7 minutes ago)
+[000 ms] Starting
+[014 ms] Pending triggers set:  0 items, 1 garbage
+[014 ms] Recently finished set: 1 items, 1 garbage
+[014 ms] The preparation is finished
+[024 ms] Started the transaction
+[028 ms] Invocation 8913624486930904032 is acknowledged as finished
+[028 ms] Number of active invocations: 0
+[028 ms] Number of recently finished:  1
+[033 ms] Triggers available in this txn: 0
+[033 ms] Invoking the triggering policy function
+[033 ms] The policy requested 0 new invocations
+[033 ms] Poking the cron
+[033 ms] Removing consumed dsset items
+[036 ms] Landing the transaction
+[061 ms] Cleaning up storage of 1 dsset items
+[095 ms] Done
+← NewerOlder →
+ID	Started	Triggered by	Duration	Status
+8913624486930904032	49 minutes ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	41 minutes	SUCCEEDED
+8913627863047697520	1 hour ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913630390986220384	2 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913633204806437488	3 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	44 minutes	SUCCEEDED
+8913639698038278416	4 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	41 minutes	SUCCEEDED
+8913642116068548032	5 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	38 minutes	SUCCEEDED
+8913644249950334016	6 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913646131233873376	6 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	29 minutes	SUCCEEDED
+8913648078216959312	7 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	30 minutes	SUCCEEDED
+8913652291354756000	8 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	36 minutes	SUCCEEDED
+8913654499024505472	8 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	35 minutes	SUCCEEDED
+8913657001144640336	9 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	39 minutes	SUCCEEDED
+8913659636617224080	10 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	41 minutes	SUCCEEDED
+8913661717209212112	10 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913664014070924528	11 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	36 minutes	SUCCEEDED
+8913666354015170752	11 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	37 minutes	SUCCEEDED
+8913668167109637584	12 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	28 minutes	SUCCEEDED
+8913670136179565200	12 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	31 minutes	SUCCEEDED
+8913672696462140288	13 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913675107417137744	14 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	29 minutes	SUCCEEDED
+8913677732090163200	14 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	41 minutes	SUCCEEDED
+8913679923241919392	15 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	34 minutes	SUCCEEDED
+8913682044727109696	16 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913684522421904608	16 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	39 minutes	SUCCEEDED
+8913686533335858000	17 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	31 minutes	SUCCEEDED
+8913688633295926160	17 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913691153218863344	18 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913693896178990880	19 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	43 minutes	SUCCEEDED
+8913696048176816384	19 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	34 minutes	SUCCEEDED
+8913698392640473552	20 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	37 minutes	SUCCEEDED
+8913700514696799904	20 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913702778459709648	21 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	35 minutes	SUCCEEDED
+8913708555928133264	23 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	1 hour	SUCCEEDED
+8913711009594958992	23 hours ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	38 minutes	SUCCEEDED
+8913713540027494304	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913715731382583424	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	34 minutes	SUCCEEDED
+8913717902784816256	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	34 minutes	SUCCEEDED
+8913719998837846864	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913722850497728560	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	45 minutes	SUCCEEDED
+8913724907611258576	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	32 minutes	SUCCEEDED
+8913727451920010064	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913729423797160544	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	31 minutes	SUCCEEDED
+8913731960138823520	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913734089727549888	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	33 minutes	SUCCEEDED
+8913736290295073664	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	34 minutes	SUCCEEDED
+8913738343558840112	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	32 minutes	SUCCEEDED
+8913740923152104592	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	40 minutes	SUCCEEDED
+8913743309150371456	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	37 minutes	SUCCEEDED
+8913745384252284320	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	32 minutes	SUCCEEDED
+8913748282530232592	1 day ago	chromium-ci-gpu-builder@chops-service-accounts.iam.gserviceaccount.com	46 minutes	SUCCEEDED
+← NewerOlder →
+Handled in 438.384749ms Version: 14777-8f2ac72
