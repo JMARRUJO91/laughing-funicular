@@ -1,0 +1,173 @@
+Toggle navigation
+LUCI Scheduler
+All projects webrtc   Android32 8915021513216009184
+Status: FAILED
+Triggered by: -
+Duration: 1 hour
+Actions: 
+Definition (rev b301b58b3fc8a7f790819c4986cc67bcc7d6e8e4)
+buildbucket: <
+  server: "cr-buildbucket.appspot.com"
+  bucket: "ci"
+  builder: "Android32"
+>
+Incoming triggers
+3703b3500c6cdbf391de8ee1981df741088659c9 (2 weeks ago)
+Incoming properties
+{
+  "branch": "refs/heads/main",
+  "repository": "https://webrtc.googlesource.com/src",
+  "revision": "3703b3500c6cdbf391de8ee1981df741088659c9"
+}
+Incoming tags
+buildset:commit/gitiles/webrtc.googlesource.com/src/+/3703b3500c6cdbf391de8ee1981df741088659c9
+gitiles_ref:refs/heads/main
+Debug log (UTC)
+[12:59:34.852] New invocation is queued and will start shortly
+[12:59:36.301] Starting the invocation (attempt 1)
+[12:59:36.345] Popped buildset tag "buildset:commit/gitiles/webrtc.googlesource.com/src/+/3703b3500c6cdbf391de8ee1981df741088659c9"
+[12:59:36.345] Popped gitiles commit info from properties and tags
+[12:59:36.345] Preparing PubSub topic for "https://cr-buildbucket.appspot.com"
+[12:59:36.345] PubSub topic is "projects/luci-scheduler/topics/scheduler.buildbucket.cr-buildbucket~appspot.gserviceaccount.com"
+[12:59:36.345] Buildbucket request:
+{
+  "requestId": "8915021513216009184",
+  "builder": {
+    "project": "webrtc",
+    "bucket": "ci",
+    "builder": "Android32"
+  },
+  "properties": {
+      "$recipe_engine/scheduler": {
+            "hostname": "luci-scheduler.appspot.com",
+            "invocation": "8915021513216009184",
+            "job": "webrtc/Android32",
+            "triggers": [
+                  {
+                        "gitiles": {
+                              "ref": "refs/heads/main",
+                              "repo": "https://webrtc.googlesource.com/src",
+                              "revision": "3703b3500c6cdbf391de8ee1981df741088659c9"
+                            },
+                        "id": "https://webrtc.googlesource.com/src/+/refs/heads/main@3703b3500c6cdbf391de8ee1981df741088659c9",
+                        "title": "3703b3500c6cdbf391de8ee1981df741088659c9",
+                        "url": "https://webrtc.googlesource.com/src/+/3703b3500c6cdbf391de8ee1981df741088659c9"
+                      }
+                ]
+          }
+    },
+  "gitilesCommit": {
+    "host": "webrtc.googlesource.com",
+    "project": "src",
+    "id": "3703b3500c6cdbf391de8ee1981df741088659c9",
+    "ref": "refs/heads/main"
+  },
+  "tags": [
+    {
+      "key": "scheduler_invocation_id",
+      "value": "8915021513216009184"
+    },
+    {
+      "key": "scheduler_job_id",
+      "value": "webrtc/Android32"
+    },
+    {
+      "key": "user_agent",
+      "value": "luci-scheduler"
+    }
+  ],
+  "notify": {
+    "pubsubTopic": "projects/luci-scheduler/topics/scheduler.buildbucket.cr-buildbucket~appspot.gserviceaccount.com"
+  }
+}
+[12:59:37.003] Scheduled build:
+{
+  "id": "8749591450882285633",
+  "builder": {
+    "project": "webrtc",
+    "bucket": "ci",
+    "builder": "Android32"
+  },
+  "number": 3212,
+  "createdBy": "project:webrtc",
+  "createTime": "2024-04-26T12:59:36.453609177Z",
+  "updateTime": "2024-04-26T12:59:36.453609177Z",
+  "status": "SCHEDULED",
+  "input": {
+    "gitilesCommit": {
+      "host": "webrtc.googlesource.com",
+      "project": "src",
+      "id": "3703b3500c6cdbf391de8ee1981df741088659c9",
+      "ref": "refs/heads/main"
+    }
+  }
+}
+[12:59:37.003] Task URL: https://cr-buildbucket.appspot.com/build/8749591450882285633
+[12:59:37.004] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:2:0) after 5m56s
+[12:59:37.924] Received PubSub notification, asking Buildbucket for the build status
+[12:59:37.958] Build status: SCHEDULED
+[13:05:33.071] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:2:0)
+[13:05:33.125] Build status: SCHEDULED
+[13:05:33.129] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:4:0) after 6m12s
+[13:11:45.153] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:4:0)
+[13:11:45.174] Build status: SCHEDULED
+[13:11:45.174] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:5:0) after 7m30s
+[13:12:47.091] Received PubSub notification, asking Buildbucket for the build status
+[13:12:47.123] Build status: STARTED
+[13:19:15.575] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:5:0)
+[13:19:15.593] Build status: STARTED
+[13:19:15.593] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:7:0) after 2m2s
+[13:21:17.623] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:7:0)
+[13:21:17.644] Build status: STARTED
+[13:21:17.644] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:8:0) after 5m41s
+[13:26:59.178] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:8:0)
+[13:26:59.198] Build status: STARTED
+[13:26:59.198] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:9:0) after 5m30s
+[13:32:29.345] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:9:0)
+[13:32:29.371] Build status: STARTED
+[13:32:29.371] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:10:0) after 6m36s
+[13:39:05.397] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:10:0)
+[13:39:05.454] Build status: STARTED
+[13:39:05.454] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:11:0) after 5m13s
+[13:44:18.562] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:11:0)
+[13:44:18.632] Build status: STARTED
+[13:44:18.632] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:12:0) after 7m43s
+[13:52:01.649] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:12:0)
+[13:52:01.671] Build status: STARTED
+[13:52:01.671] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:13:0) after 3m59s
+[13:56:00.688] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:13:0)
+[13:56:00.719] Build status: STARTED
+[13:56:00.719] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:14:0) after 4m6s
+[14:00:06.776] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:14:0)
+[14:00:06.802] Build status: STARTED
+[14:00:06.802] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:15:0) after 2m25s
+[14:02:31.806] Handling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:15:0)
+[14:02:31.836] Build status: STARTED
+[14:02:31.836] Scheduling timer "check-buildbucket-build-status" (webrtc/Android32:8915021513216009184:16:0) after 1m41s
+[14:03:50.127] Received PubSub notification, asking Buildbucket for the build status
+[14:03:50.158] Build:
+{
+  "id": "8749591450882285633",
+  "builder": {
+    "project": "webrtc",
+    "bucket": "ci",
+    "builder": "Android32"
+  },
+  "number": 3212,
+  "createdBy": "project:webrtc",
+  "createTime": "2024-04-26T12:59:36.453609177Z",
+  "startTime": "2024-04-26T13:12:46.773304416Z",
+  "endTime": "2024-04-26T14:03:38.342078565Z",
+  "updateTime": "2024-04-26T14:03:38.342078565Z",
+  "status": "FAILURE",
+  "input": {
+    "gitilesCommit": {
+      "host": "webrtc.googlesource.com",
+      "project": "src",
+      "id": "3703b3500c6cdbf391de8ee1981df741088659c9",
+      "ref": "refs/heads/main"
+    }
+  }
+}
+[14:03:50.158] Invocation finished in 1h4m15.313932831s with status FAILED
+Handled in 130.060898ms Version: 14777-8f2ac72
