@@ -1,0 +1,302 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://chromium-swarm.appspot.com/bot?id=luci-angle-ci-bionic-8-0-7m84
+Subject: Bot Page - Swarming
+Date: Sat, 11 May 2024 22:10:58 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--oqpQGw4YJ1ZVpV3d47ca0KoKpB4XhAFRC9rKPJjRuo----"
+
+
+------MultipartBoundary--oqpQGw4YJ1ZVpV3d47ca0KoKpB4XhAFRC9rKPJjRuo----
+Content-Type: text/html
+Content-ID: <frame-F5AF731D1FDC9E7A71E47F03D0A0881A@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium-swarm.appspot.com/bot?id=luci-angle-ci-bionic-8-0-7m84
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="https://chromium-swarm.appspot.com/newres/public_bot_index-bundle.css" rel="stylesheet"><title>Bot Page - Swarming</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><bot-page><!----> <swarming-app id="swapp"> <header> 
+<button class="toggle-button">
+  <menu-icon-sk>
+  <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></menu-icon-sk>
+</button>
+<div class="title">Swarming Bot Page</div> 
+<div class="spinner-spacer">
+  <spinner-sk></spinner-sk>
+</div>
+<aside class="hideable"> <a href="https://chromium-swarm.appspot.com/">Home</a> <a href="https://chromium-swarm.appspot.com/botlist">Bot List</a> <a href="https://chromium-swarm.appspot.com/tasklist">Task List</a> <a href="https://chromium-swarm.appspot.com/task">Task Page</a> </aside> <span class="grow"></span><div class="right"><!----> <div class="server-version"> AppEngine version: <a href="https://console.cloud.google.com/appengine/versions?project=chromium-swarm&amp;serviceId=default&amp;pageState=(%22versionsTable%22:(%22f%22:%22%255B%257B_22k_22_3A_22Version_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_227653-1889777_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22id_22%257D%255D%22))"> 7653-1889777<!----></a> Git version:<a href="https://chromium.googlesource.com/infra/luci/luci-py/+/1889777"><!---->1889777<!----></a> </div> <oauth-login><!----> <div> <img class="center" id="avatar" width="30" height="30" src="https://lh3.googleusercontent.com/a/ACg8ocI4JqoY7ZWatayr_HPaVwYRjdsTOjyNK8oW3dOILVjWKW9MKaek=s96-c"> <span class="center"><!---->marrujojazmyne@gmail.com<!----></span> <span class="center">|</span> <a class="center" href="https://chromium-swarm.appspot.com/bot?id=luci-angle-ci-bionic-8-0-7m84#">Sign out</a> </div><!----></oauth-login><!----></div></header> <main>  <div class="top">  <div class="id_buttons"> <input id="id_input" placeholder="Bot ID"> <button title="Refresh data" class="refresh">refresh</button> </div>  </div> <div class="horizontal layout wrap content"> <div class="grow"> <table class="data_table">  <tr title="This bot was deleted." class="dead hidden"> <td colspan="3">THIS BOT WAS DELETED</td> </tr> <tr class=""> <td>Last Seen</td> <td title="undefined">  11s ago </td> <td> <button class="shut_down " disabled=""> Stop the bot gracefully </button> <button class="delete hidden" disabled=""> Delete </button> </td> </tr> <tr class="quarantined hidden"> <td>Quarantined</td> <td colspan="2" class="code"><!----><!----></td> </tr> <tr class="dead hidden"> <td>Dead</td> <td colspan="2" class="code"> Bot has been missing longer than 10 minutes </td> </tr> <tr class="maintenance hidden"> <td>In Maintenance</td> <td colspan="2" class="code"><!----><!----></td> </tr> <tr> <td><!---->Current Task<!----></td> <td> <a target="_blank" rel="noopener"> idle </a> </td> <td>  </td> </tr>  <tr> <td rowspan="25"> <a href="https://chromium-swarm.appspot.com/botlist?c=id&amp;c=os&amp;c=task&amp;c=status&amp;c=bot_config&amp;c=builderless&amp;c=cipd_platform&amp;c=cores&amp;c=cpu&amp;c=display_attached&amp;c=gce&amp;c=gcp&amp;c=gpu&amp;c=image&amp;c=inside_docker&amp;c=kernel&amp;c=kvm&amp;c=locale&amp;c=machine_type&amp;c=pool&amp;c=puppet_env&amp;c=python&amp;c=ssd&amp;c=zone&amp;f=bot_config%3Abot_config.py&amp;f=builderless%3A1&amp;f=cipd_platform%3Alinux-amd64&amp;f=cores%3A8&amp;f=cpu%3Ax86&amp;f=cpu%3Ax86-64&amp;f=cpu%3Ax86-64-Broadwell_GCE&amp;f=cpu%3Ax86-64-avx2&amp;f=display_attached%3A0&amp;f=gce%3A1&amp;f=gcp%3Agoogle.com%3Achromecompute&amp;f=gpu%3Anone&amp;f=image%3Achrome-bionic-23082900-e1bff6df85a&amp;f=inside_docker%3A0&amp;f=kernel%3A5.4.0-150-generic&amp;f=kvm%3A1&amp;f=locale%3Aen_US.UTF-8&amp;f=machine_type%3An1-standard-8&amp;f=os%3ALinux&amp;f=os%3AUbuntu&amp;f=os%3AUbuntu-18&amp;f=os%3AUbuntu%2018.04%20Bionic%20Beaver%20(Ubuntu-18.04)&amp;f=os%3AUbuntu-18.04.6&amp;f=pool%3Aluci.angle.ci&amp;f=puppet_env%3Aproduction&amp;f=python%3A3&amp;f=python%3A3.8&amp;f=python%3A3.8.10%2Bchromium.23&amp;f=ssd%3A0&amp;f=zone%3Aus&amp;f=zone%3Aus-central&amp;f=zone%3Aus-central1&amp;f=zone%3Aus-central1-b"> Dimensions </a> </td> </tr> <!----> <tr> <td><!---->bot_config<!----></td> <td><!---->bot_config.py<!----></td> </tr> <!----> <tr> <td><!---->builderless<!----></td> <td><!---->1<!----></td> </tr> <!----> <tr> <td><!---->caches<!----></td> <td><!---->builder_aecc7961834a5816b1f950b3afa89b09702b28d0b17c97635040c63bc36fc0c4_v2 | builder_bbe1bbb670ccb7c0a5df1e9a62a79a4a51106223c21e9bf098fd580b32dc8cf9_v2 | builder_db9b447c95f351d1452ad81717a0004f3bed4c3377d7a329265f8c7af4b25daf_v2 | cipd_cache_a2cbe9f64c7762db55df221cee9e93682fa7356e8bca064c89b900dc2a62e19e | cipd_client_f970720a374db65e431d9836bdd8bc091f12dd8c12a454b5a67f5b163006301e | git<!----></td> </tr> <!----> <tr> <td><!---->cipd_platform<!----></td> <td><!---->linux-amd64<!----></td> </tr> <!----> <tr> <td><!---->cores<!----></td> <td><!---->8<!----></td> </tr> <!----> <tr> <td><!---->cpu<!----></td> <td><!---->x86 | x86-64 | x86-64-Broadwell_GCE | x86-64-avx2<!----></td> </tr> <!----> <tr> <td><!---->display_attached<!----></td> <td><!---->0<!----></td> </tr> <!----> <tr> <td><!---->gce<!----></td> <td><!---->1<!----></td> </tr> <!----> <tr> <td><!---->gcp<!----></td> <td><!---->google.com:chromecompute<!----></td> </tr> <!----> <tr> <td><!---->gpu<!----></td> <td><!---->none<!----></td> </tr> <!----> <tr> <td><!---->id<!----></td> <td><!---->luci-angle-ci-bionic-8-0-7m84<!----></td> </tr> <!----> <tr> <td><!---->image<!----></td> <td><!---->chrome-bionic-23082900-e1bff6df85a<!----></td> </tr> <!----> <tr> <td><!---->inside_docker<!----></td> <td><!---->0<!----></td> </tr> <!----> <tr> <td><!---->kernel<!----></td> <td><!---->5.4.0-150-generic<!----></td> </tr> <!----> <tr> <td><!---->kvm<!----></td> <td><!---->1<!----></td> </tr> <!----> <tr> <td><!---->locale<!----></td> <td><!---->en_US.UTF-8<!----></td> </tr> <!----> <tr> <td><!---->machine_type<!----></td> <td><!---->n1-standard-8<!----></td> </tr> <!----> <tr> <td><!---->os<!----></td> <td><!---->Linux | Ubuntu | Ubuntu-18 | Ubuntu 18.04 Bionic Beaver (Ubuntu-18.04) | Ubuntu-18.04.6<!----></td> </tr> <!----> <tr> <td><!---->pool<!----></td> <td><!---->luci.angle.ci<!----></td> </tr> <!----> <tr> <td><!---->puppet_env<!----></td> <td><!---->production<!----></td> </tr> <!----> <tr> <td><!---->python<!----></td> <td><!---->3 | 3.8 | 3.8.10+chromium.23<!----></td> </tr> <!----> <tr> <td><!---->server_version<!----></td> <td><!---->7653-1889777<!----></td> </tr> <!----> <tr> <td><!---->ssd<!----></td> <td><!---->0<!----></td> </tr> <!----> <tr> <td><!---->zone<!----></td> <td><!---->us | us-central | us-central1 | us-central1-b<!----></td> </tr> <!---->   <tr title="IP address that the server saw the connection from."> <td>External IP</td> <td colspan="2"> <a href="http://104.155.240.33/"><!---->104.155.240.33<!----></a> </td> </tr> <tr title="Version is based on the content of swarming_bot.zip which is the swarming bot code. The bot won't update if quarantined, dead, or busy." class=""> <td>Bot Version</td> <td colspan="2"><!---->4486b9254d<!----></td> </tr> <tr title="The version the server expects the bot to be using."> <td>Expected Bot Version</td> <td colspan="2"> 4486b9254d </td> </tr> <tr title="First time ever a bot with this id contacted the server."> <td>First seen</td> <td colspan="2" title="undefined"> 6d ago </td> </tr> <tr title="How the bot is authenticated by the server."> <td>Authenticated as</td> <td colspan="2"><!---->bot:luci-angle-ci-bionic-8-0-7m84@gce.chromecompute.google.com<!----></td> </tr>  </table>   <span class="title">State</span> <button class="state"> <add-circle-outline-icon-sk><svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg></add-circle-outline-icon-sk>  </button>   </div> <div class="stats grow"> <bot-page-summary><!----> <table> <thead> <tr> <th> <span>Name</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th> <span>Total</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <!----></sort-toggle> </th> <th> <span>Success</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th> <span>Failed</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th> <span>Died</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th> <span>Average Duration</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th> <span>Average Overhead</span> <sort-toggle><!----> <arrow-drop-down-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></arrow-drop-down-icon-sk> <arrow-drop-up-icon-sk> <svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z"></path></svg></arrow-drop-up-icon-sk><!----></sort-toggle> </th> <th>Percent of Total</th> </tr> </thead> <tbody> <!----> <tr> <td class="break-all" title="bb-8748213003154900033-angle/ci/android-pixel6-perf-2677"> bb-8748213003154900033-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->  1h 21m  2s<!----></td> <td><!---->11.93s<!----></td> <td><!---->7.6%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748219589009083937-angle/ci/android-pixel6-perf-2676"> bb-8748219589009083937-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->  1h  5m 28s<!----></td> <td><!---->18.66s<!----></td> <td><!---->6.2%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748228181511592209-angle/ci/linux-test-6012"> bb-8748228181511592209-angle/ci/linux-test-6012 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 24m  5s<!----></td> <td><!---->10.95s<!----></td> <td><!---->2.3%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748301440946873281-angle/ci/android-pixel6-perf-2674"> bb-8748301440946873281-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!----> 56m 29s<!----></td> <td><!---->15.35s<!----></td> <td><!---->5.3%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748310570600867553-angle/ci/android-arm-compile-6034"> bb-8748310570600867553-angle/ci/android-arm-com... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 30m 17s<!----></td> <td><!---->14.05s<!----></td> <td><!---->2.9%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748327913111280561-angle/ci/android-pixel6-perf-2672"> bb-8748327913111280561-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 57m 39s<!----></td> <td><!---->21.53s<!----></td> <td><!---->5.4%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748382196127232929-angle/ci/linux-test-6008"> bb-8748382196127232929-angle/ci/linux-test-6008 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 20m 22s<!----></td> <td><!---->7.46s<!----></td> <td><!---->1.9%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748387543990573713-angle/ci/linux-test-6007"> bb-8748387543990573713-angle/ci/linux-test-6007 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 21m 29s<!----></td> <td><!---->23.22s<!----></td> <td><!---->2.0%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748397012919873729-angle/ci/android-pixel6-perf-2669"> bb-8748397012919873729-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->  1h  6m  5s<!----></td> <td><!---->  1m 19s<!----></td> <td><!---->6.2%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748401788710981873-angle/ci/linux-test-6006"> bb-8748401788710981873-angle/ci/linux-test-6006 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 16m 36s<!----></td> <td><!---->10.43s<!----></td> <td><!---->1.6%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748403357110036017-angle/ci/linux-test-6005"> bb-8748403357110036017-angle/ci/linux-test-6005 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 24m 46s<!----></td> <td><!---->  1m  8s<!----></td> <td><!---->2.3%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748405707153499505-angle/ci/linux-test-6004"> bb-8748405707153499505-angle/ci/linux-test-6004 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 23m  3s<!----></td> <td><!---->12.96s<!----></td> <td><!---->2.2%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748414881966624657-angle/ci/android-pixel6-perf-2666"> bb-8748414881966624657-angle/ci/android-pixel6-... </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 57m 40s<!----></td> <td><!---->7.31s<!----></td> <td><!---->5.4%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748416772349612609-angle/ci/linux-test-6003"> bb-8748416772349612609-angle/ci/linux-test-6003 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 18m 25s<!----></td> <td><!---->7.46s<!----></td> <td><!---->1.7%</td> </tr> <!----> <tr> <td class="break-all" title="bb-8748418578144830625-angle/ci/linux-test-6002"> bb-8748418578144830625-angle/ci/linux-test-6002 </td> <td><!---->1<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!---->0<!----></td> <td><!----> 22m 54s<!----></td> <td><!---->15.20s<!----></td> <td><!---->2.2%</td> </tr> <!----> <tr class="thick"> <td>Total</td> <td><!---->30<!----></td> <td><!---->0<!----></td> <td><!---->4<!----></td> <td><!---->0<!----></td> <td><!----> 35m 23s<!----></td> <td><!---->20.33s<!----></td> <td>100.0%</td> </tr> </tbody> </table> <div> <table> <thead> <tr> <th title="How much time passed between the oldest task fetched and now."> Total Wall Time </th> <th title="How much of the wall time this bot was busy with a task."> Wall Time Utilization </th> </tr> </thead> <tbody> <tr> <td><!---->  4d 11h 39m 40s<!----></td> <td><!---->16.4%</td> </tr> </tbody> </table> <div class="controls"> <checkbox-sk><label><input type="checkbox" name="null"><span class="box"></span><span class="label"></span></label></checkbox-sk> <span>Show Full Names</span> <checkbox-sk><label><input type="checkbox" name="null"><span class="box"></span><span class="label"></span></label></checkbox-sk> <span>Show All Tasks</span> </div> </div> <!----></bot-page-summary> </div> </div> <div class="tasks-events-picker"> <div class="tab" selected=""> Tasks </div> <div class="tab"> Events </div> </div>  <table class="tasks_table"> <thead> <tr> <th>Task</th> <th>Started</th> <th>Duration</th> <th>Result</th> </tr> </thead> <tbody> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6981aa00df345110"> bb-8748213003154900033-angle/ci/android-pixel6-perf-2677 </a> </td> <td><!---->5/11/2024, 11:09:28 AM (Pacific Daylight Time)<!----></td> <td title="5/11/2024, 12:30:34 PM (Pacific Daylight Time)"><!---->  1h 21m  2s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=69814a278b963010"> bb-8748219589009083937-angle/ci/android-pixel6-perf-2676 </a> </td> <td><!---->5/11/2024, 9:24:49 AM (Pacific Daylight Time)<!----></td> <td title="5/11/2024, 10:30:21 AM (Pacific Daylight Time)"><!---->  1h  5m 28s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6980cd2120a26110"> bb-8748228181511592209-angle/ci/linux-test-6012 </a> </td> <td><!---->5/11/2024, 7:08:13 AM (Pacific Daylight Time)<!----></td> <td title="5/11/2024, 7:32:22 AM (Pacific Daylight Time)"><!----> 24m  5s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class="failed_task"> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=697ca310bb62b110"> bb-8748301440946873281-angle/ci/android-pixel6-perf-2674 </a> </td> <td><!---->5/10/2024, 11:43:47 AM (Pacific Daylight Time)<!----></td> <td title="5/10/2024, 12:40:21 PM (Pacific Daylight Time)"><!----> 56m 29s<!----></td> <td><!---->FAILURE<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=697c1e3714940910"> bb-8748310570600867553-angle/ci/android-arm-compile-6034 </a> </td> <td><!---->5/10/2024, 9:22:47 AM (Pacific Daylight Time)<!----></td> <td title="5/10/2024, 9:53:08 AM (Pacific Daylight Time)"><!----> 30m 17s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=697b21d9e425f210"> bb-8748327913111280561-angle/ci/android-pixel6-perf-2672 </a> </td> <td><!---->5/10/2024, 4:43:02 AM (Pacific Daylight Time)<!----></td> <td title="5/10/2024, 5:40:46 AM (Pacific Daylight Time)"><!----> 57m 39s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=69780be852bb8910"> bb-8748382196127232929-angle/ci/linux-test-6008 </a> </td> <td><!---->5/9/2024, 2:20:13 PM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 2:40:39 PM (Pacific Daylight Time)"><!----> 20m 22s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6977be4842658610"> bb-8748387543990573713-angle/ci/linux-test-6007 </a> </td> <td><!---->5/9/2024, 12:55:28 PM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 1:17:00 PM (Pacific Daylight Time)"><!----> 21m 29s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class="failed_task"> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6977345e15b0d810"> bb-8748397012919873729-angle/ci/android-pixel6-perf-2669 </a> </td> <td><!---->5/9/2024, 10:24:47 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 11:30:56 AM (Pacific Daylight Time)"><!---->  1h  6m  5s<!----></td> <td><!---->FAILURE<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6976eecc1251ef10"> bb-8748401788710981873-angle/ci/linux-test-6006 </a> </td> <td><!---->5/9/2024, 9:08:48 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 9:25:28 AM (Pacific Daylight Time)"><!----> 16m 36s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6976d7f977ce3910"> bb-8748403357110036017-angle/ci/linux-test-6005 </a> </td> <td><!---->5/9/2024, 8:43:52 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 9:08:42 AM (Pacific Daylight Time)"><!----> 24m 46s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6976b5c82c078310"> bb-8748405707153499505-angle/ci/linux-test-6004 </a> </td> <td><!---->5/9/2024, 8:06:31 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 8:29:38 AM (Pacific Daylight Time)"><!----> 23m  3s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6976304494cab010"> bb-8748414881966624657-angle/ci/android-pixel6-perf-2666 </a> </td> <td><!---->5/9/2024, 5:40:41 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 6:38:26 AM (Pacific Daylight Time)"><!----> 57m 40s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=697614c1b1ff9c10"> bb-8748416772349612609-angle/ci/linux-test-6003 </a> </td> <td><!---->5/9/2024, 5:10:41 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 5:29:10 AM (Pacific Daylight Time)"><!----> 18m 25s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6975fa86716f9510"> bb-8748418578144830625-angle/ci/linux-test-6002 </a> </td> <td><!---->5/9/2024, 4:41:59 AM (Pacific Daylight Time)<!----></td> <td title="5/9/2024, 5:04:57 AM (Pacific Daylight Time)"><!----> 22m 54s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6973064d94fdba10"> bb-8748470545229898465-angle/ci/linux-test-6001 </a> </td> <td><!---->5/8/2024, 2:55:59 PM (Pacific Daylight Time)<!----></td> <td title="5/8/2024, 3:17:35 PM (Pacific Daylight Time)"><!----> 21m 33s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6972217d5e29e410"> bb-8748486266122927217-angle/ci/linux-test-6000 </a> </td> <td><!---->5/8/2024, 10:46:03 AM (Pacific Daylight Time)<!----></td> <td title="5/8/2024, 11:16:20 AM (Pacific Daylight Time)"><!----> 30m 13s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6971ce1a605f1d10"> bb-8748491996510058257-angle/ci/linux-test-5999 </a> </td> <td><!---->5/8/2024, 9:14:59 AM (Pacific Daylight Time)<!----></td> <td title="5/8/2024, 9:35:10 AM (Pacific Daylight Time)"><!----> 20m  8s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=6971b77105481a10"> bb-8748493556785055665-angle/ci/linux-test-5998 </a> </td> <td><!---->5/8/2024, 8:50:17 AM (Pacific Daylight Time)<!----></td> <td title="5/8/2024, 9:11:47 AM (Pacific Daylight Time)"><!----> 21m 27s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=69701832e9573910"> bb-8748522088961596609-angle/ci/linux-test-5997 </a> </td> <td><!---->5/8/2024, 1:16:40 AM (Pacific Daylight Time)<!----></td> <td title="5/8/2024, 1:38:50 AM (Pacific Daylight Time)"><!----> 22m  6s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class="failed_task"> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696e5dd2ed4d2910"> bb-8748552488983077793-angle/ci/android-pixel6-perf-2657 </a> </td> <td><!---->5/7/2024, 5:13:29 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 6:51:27 PM (Pacific Daylight Time)"><!---->  1h 37m 55s<!----></td> <td><!---->FAILURE<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696e23be493c7410"> bb-8748556480157067217-angle/ci/linux-test-5996 </a> </td> <td><!---->5/7/2024, 4:10:02 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 4:31:41 PM (Pacific Daylight Time)"><!----> 21m 34s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696e0ed17fe14410"> bb-8748557918202313905-angle/ci/linux-test-5995 </a> </td> <td><!---->5/7/2024, 3:47:12 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 4:08:58 PM (Pacific Daylight Time)"><!----> 21m 42s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696dd08cdb357710"> bb-8748562196976756417-angle/ci/android-pixel6-perf-2655 </a> </td> <td><!---->5/7/2024, 2:39:10 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 3:36:53 PM (Pacific Daylight Time)"><!----> 57m 39s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696dadaaa7aafc10"> bb-8748564594430987041-angle/ci/linux-test-5994 </a> </td> <td><!---->5/7/2024, 2:01:04 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 2:21:31 PM (Pacific Daylight Time)"><!----> 20m 23s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696d9b9ff870e710"> bb-8748565834826721745-angle/ci/linux-test-5993 </a> </td> <td><!---->5/7/2024, 1:41:22 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 2:00:57 PM (Pacific Daylight Time)"><!----> 19m 31s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696d8760c80eba10"> bb-8748567225460598673-angle/ci/linux-test-5992 </a> </td> <td><!---->5/7/2024, 1:19:15 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 1:41:16 PM (Pacific Daylight Time)"><!----> 21m 58s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class="failed_task"> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696d4325ab7da910"> bb-8748571914066539313-angle/ci/android-pixel6-perf-2653 </a> </td> <td><!---->5/7/2024, 12:04:43 PM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 1:02:55 PM (Pacific Daylight Time)"><!----> 58m  8s<!----></td> <td><!---->FAILURE<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696d04ef73bd2610"> bb-8748576189666418369-angle/ci/linux-test-5991 </a> </td> <td><!---->5/7/2024, 10:56:46 AM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 11:15:35 AM (Pacific Daylight Time)"><!----> 18m 45s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> <tr class=""> <td class="break-all"> <a target="_blank" rel="noopener" href="https://chromium-swarm.appspot.com/task?id=696ced9d48ea4410"> bb-8748577791895965473-angle/ci/linux-test-5990 </a> </td> <td><!---->5/7/2024, 10:31:18 AM (Pacific Daylight Time)<!----></td> <td title="5/7/2024, 10:53:14 AM (Pacific Daylight Time)"><!----> 21m 53s<!----></td> <td><!---->SUCCESS<!----></td> </tr> <!----> </tbody> </table> <button class="more_tasks"> Show More </button>   </main> <footer><error-toast-sk><toast-sk duration="5000"></toast-sk></error-toast-sk>
+<a target="_blank" rel="noopener" href="https://bugs.chromium.org/p/chromium/issues/entry?components=Infra%3ELUCI%3ETaskDistribution%3EUI&amp;owner=kjlubick@chromium.org&amp;status=Assigned">
+  <bug-report-icon-sk class="fab"><svg class="icon-sk-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 8h-2.81c-.45-.78-1.07-1.45-1.82-1.96L17 4.41 15.59 3l-2.17 2.17C12.96 5.06 12.49 5 12 5c-.49 0-.96.06-1.41.17L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8zm-6 8h-4v-2h4v2zm0-4h-4v-2h4v2z"></path></svg></bug-report-icon-sk>
+</a></footer>  <dialog-pop-over> <div class="prompt-dialog content"> Are you sure you want to ? <div class="horizontal layout end"> <button class="cancel" tabindex="0"> NO </button> <button class="ok" tabindex="0"> YES </button> </div> </div> <div class="backdrop"></div></dialog-pop-over> </swarming-app> <!----></bot-page></body></html>
+------MultipartBoundary--oqpQGw4YJ1ZVpV3d47ca0KoKpB4XhAFRC9rKPJjRuo----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium-swarm.appspot.com/newres/public_bot_index-bundle.css
+
+@charset "utf-8";
+
+checkbox-sk { display: block; margin: 0.4em; }
+
+checkbox-sk span { display: inline-block; }
+
+checkbox-sk label { align-items: center; display: flex; }
+
+checkbox-sk .box { background: rgb(255, 255, 255); border: 4px solid rgb(23, 90, 135); border-radius: 4px; height: 16px; margin-right: 0.4em; width: 16px; }
+
+checkbox-sk input { opacity: 0; position: absolute; z-index: -1; }
+
+checkbox-sk input:checked + .box { background: rgb(31, 120, 180); }
+
+checkbox-sk input:focus + .box { outline: rgb(23, 90, 135) dotted thick; outline-offset: 1px; }
+
+checkbox-sk:hover .box { background: rgb(238, 238, 238); }
+
+checkbox-sk input:checked:hover + .box { background: rgb(119, 119, 119); }
+
+checkbox-sk input:checked + .box { background: rgb(23, 90, 135); }
+
+checkbox-sk[hidden] { display: none; }
+
+checkbox-sk input:disabled + .box { background: rgb(255, 255, 255); border: 4px solid rgb(117, 117, 117); }
+
+checkbox-sk input:disabled:checked + .box { background: rgb(117, 117, 117); border: 4px solid rgb(117, 117, 117); color: rgb(117, 117, 117); }
+
+svg.icon-sk-svg { display: inline-block; height: 24px; pointer-events: none; position: relative; vertical-align: middle; width: 24px; }
+
+button { fill: rgb(23, 90, 135); background-color: rgb(255, 255, 255); border: 1px solid rgb(211, 211, 211); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 8px 0px; color: rgb(23, 90, 135); height: 3em; margin: 0.6em; min-width: 5.14em; outline: none; padding: 0.6em 1.2em; text-align: center; text-transform: uppercase; transition: box-shadow 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0s; }
+
+button:hover { background: rgb(238, 238, 238); }
+
+button.action:hover { background: rgb(30, 119, 179); }
+
+button:focus { background-color: rgb(221, 221, 221); }
+
+button:active, button:focus { transition: background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0s; }
+
+button:active { background-color: rgb(117, 117, 117); box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 8px 0px; }
+
+button:disabled { fill: rgb(117, 117, 117); background-color: rgb(255, 255, 255); color: rgb(117, 117, 117); }
+
+button.action:active { background-color: rgb(166, 206, 227); }
+
+button.action { fill: rgb(255, 255, 255); background: rgb(23, 90, 135); border: none; color: rgb(255, 255, 255); }
+
+button.action:disabled { fill: rgb(255, 255, 255); background: rgb(117, 117, 117); border: none; color: rgb(255, 255, 255); }
+
+button.action:focus { border: 2px solid gray; }
+
+button.fab { background: rgb(227, 26, 28); border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 8px 0px; color: rgb(255, 255, 255); font-size: 22px; font-weight: 700; height: 48px; min-width: 0px; padding: 10px; transition: box-shadow 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0s; width: 48px; }
+
+button.fab:active { background: rgb(251, 154, 153); box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px 0px; }
+
+button.fab:focus { border: 2px solid gray; }
+
+sort-toggle { display: inline-block; min-height: 16px; min-width: 20px; position: relative; vertical-align: middle; }
+
+sort-toggle arrow-drop-down-icon-sk, sort-toggle arrow-drop-up-icon-sk { cursor: pointer; left: 0px; position: absolute; }
+
+sort-toggle arrow-drop-down-icon-sk { top: 0px; }
+
+sort-toggle arrow-drop-up-icon-sk { bottom: 0px; }
+
+bot-page-summary .controls > * { display: inline-block; }
+
+bot-page-summary .controls > checkbox-sk { margin-left: 20px; margin-right: 0px; vertical-align: middle; }
+
+bot-page-summary table { border-collapse: collapse; margin-bottom: 8px; margin-left: 5px; }
+
+bot-page-summary td, bot-page-summary th { border: 1px solid rgb(187, 187, 187); padding: 5px; }
+
+bot-page-summary tr.thick { border-top-style: solid; }
+
+bot-page-summary .break-all { word-break: break-all; }
+
+dialog-pop-over .backdrop { background-color: rgb(0, 0, 0); inset: 0px; opacity: 0; pointer-events: none; position: fixed; transition: opacity 0.2s ease 0s; z-index: 10; }
+
+dialog-pop-over .backdrop.opened { opacity: 0.6; pointer-events: auto; }
+
+dialog-pop-over .content { background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.4) 0px 8px 10px -5px; position: fixed; visibility: hidden; z-index: 11; }
+
+dialog-pop-over .content.opened { visibility: initial; }
+
+toast-sk { fill: rgb(255, 255, 255); background: rgb(23, 90, 135); border-radius: 4px; bottom: 0px; color: rgb(255, 255, 255); display: block; left: 10px; opacity: 0; padding: 10px 15px; position: fixed; visibility: hidden; z-index: 20; }
+
+toast-sk[shown] { bottom: 10px; opacity: 1; transition: bottom 0.3s linear 0s, opacity 0.3s linear 0s, visibility 0s ease 0s; visibility: visible; }
+
+spinner-sk { animation: 1.5s linear 0s infinite normal none running spinner-sk-spin; border-width: 8px; border-style: solid; border-color: rgb(166, 206, 227) rgb(166, 206, 227) rgb(166, 206, 227) rgb(31, 120, 180); border-image: initial; border-radius: 50%; display: none; height: 32px; margin: 6px; width: 32px; }
+
+spinner-sk[active] { display: inline-block; }
+
+@keyframes spinner-sk-spin { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+
+oauth-login #avatar { border-radius: 5px; }
+
+oauth-login a { color: rgb(255, 255, 255); }
+
+oauth-login .center { vertical-align: middle; }
+
+body { margin: 0px; padding: 0px; }
+
+swarming-app { font-family: sans-serif; }
+
+swarming-app > header { background-color: rgb(31, 120, 180); color: rgb(255, 255, 255); display: flex; flex-flow: row; height: 50px; justify-content: flex-start; padding: 0px 0.5em; }
+
+swarming-app > header a { color: inherit; }
+
+swarming-app > header .grow { flex-grow: 1; }
+
+swarming-app > header .title { font-size: 1.25em; }
+
+swarming-app > header aside a { font-size: 1.1em; margin: 0px 2px; }
+
+swarming-app > header .right { display: flex; }
+
+swarming-app > header .right > *, swarming-app > header > * { margin: auto 5px; }
+
+swarming-app > header .spinner-spacer { min-width: 40px; }
+
+swarming-app > header spinner-sk { height: 24px; margin: 0px; width: 24px; }
+
+swarming-app > main { padding: 0px 5px; }
+
+@media screen and (min-width: 520px) {
+  swarming-app > header > .toggle-button { display: none; }
+}
+
+@media screen and (max-width: 520px) {
+  swarming-app > header > .toggle-button { fill: rgb(255, 255, 255); background-color: transparent; border: none; display: block; }
+  swarming-app > header > aside { background-color: rgb(255, 255, 255); border-right: 1px solid rgb(0, 0, 0); bottom: 0px; left: -170px; padding: 0px 5px; position: absolute; top: 50px; transition: all 0.5s ease 0s; width: 150px; z-index: 2; }
+  swarming-app > header > aside.shown { left: 0px; transition: all 0.5s ease 0s; }
+  swarming-app > header > aside > a { color: rgb(0, 0, 0); display: block; margin: 5px 0px; }
+}
+
+swarming-app > footer .fab { fill: rgb(255, 255, 255); background-color: rgb(31, 120, 180); border-radius: 50px; bottom: 5px; padding: 4px; position: fixed; right: 5px; }
+
+bot-page main .title { font-size: 1.5em; font-weight: 700; margin: 5px; }
+
+bot-page main a[href] { color: rgb(16, 93, 144); }
+
+bot-page main .top { width: 100%; }
+
+bot-page .id_buttons { display: flex; }
+
+bot-page .id_buttons #id_input { font-size: 1.5em; margin: 8px 5px; width: 10em; }
+
+bot-page .id_buttons .message { font-size: 1.2em; margin: auto 5px; }
+
+bot-page .vertical.grid { display: grid; gap: 1em; }
+
+bot-page .horizontal.layout { display: flex; flex-direction: row; }
+
+bot-page .horizontal.layout .grow { flex: 1 1 0px; }
+
+bot-page .horizontal.layout .stats { flex-grow: 1.5; }
+
+bot-page .horizontal.layout.end { justify-content: flex-end; }
+
+bot-page .horizontal.layout.terminate { gap: 1em; }
+
+bot-page .all-events { border-top: 3px solid rgb(31, 120, 180); border-right: 3px solid rgb(31, 120, 180); border-left: 3px solid rgb(31, 120, 180); border-image: initial; border-bottom: none; margin-left: 5px; width: 300px; }
+
+bot-page .all-events > * { display: inline-block; }
+
+bot-page .wrap.layout { flex-wrap: wrap; }
+
+bot-page .break-all { word-break: break-all; }
+
+bot-page .old_version { background-color: rgb(255, 255, 221); }
+
+bot-page .bot_state { font-family: monospace; margin-bottom: 10px; white-space: pre-wrap; word-break: break-all; }
+
+bot-page table { border-collapse: collapse; margin-bottom: 8px; margin-left: 5px; }
+
+bot-page td, bot-page th { border: 1px solid rgb(187, 187, 187); padding: 5px; }
+
+bot-page .tasks-events-picker { display: flex; margin-left: 5px; }
+
+bot-page .tasks-events-picker > * { display: inline-block; }
+
+bot-page .tasks-events-picker .tab { background-color: rgb(166, 206, 227); color: rgb(0, 0, 0); cursor: pointer; margin: 0px; padding: 10px 40px; }
+
+bot-page .tasks-events-picker .tab[selected] { background-color: rgb(31, 120, 180); color: rgb(255, 255, 255); font-weight: 700; }
+
+bot-page .events_table, bot-page .tasks_table { border: 3px solid rgb(31, 120, 180); }
+
+bot-page .failed_task, bot-page .quarantined { background-color: rgb(255, 221, 221); }
+
+bot-page .bot_died, bot-page .dead { background-color: rgb(204, 204, 204); }
+
+bot-page .exception { background-color: rgb(237, 210, 255); }
+
+bot-page .highlighted, bot-page .pending_task { background-color: rgb(255, 252, 108); }
+
+bot-page .prompt-dialog { padding: 10px; }
+
+bot-page .hidden, bot-page [hidden] { display: none !important; }
+------MultipartBoundary--oqpQGw4YJ1ZVpV3d47ca0KoKpB4XhAFRC9rKPJjRuo----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://lh3.googleusercontent.com/a/ACg8ocI4JqoY7ZWatayr_HPaVwYRjdsTOjyNK8oW3dOILVjWKW9MKaek=s96-c
+
+‰PNG
+
+   IHDR   `   `   múào   sBITÛáOà   _zTXtRaw profile type APP1  ™ãJOÍK-ÊLV((ÊOËÌIåR c.KK£D04006’F@¶9T(Ñ ˜˜›¥¡¹Y²™)ˆÏ Oºh-ØŒ    IDATxœL»g´d×qß[U{ï“:ß&ŞÉƒ™Á 	‚QÁ¢d(Ú¦%›Vğ³e+Ú¢$ËË’%Ú’¥·$SıD‘TxÌ A‘“€$ÒÌ “óÜ|;Ÿ¸÷®z.(û¬şÒkõêîS§âï_û‹GE¼«Ò*÷ã´%p°¼ÎO½p³Ñj“­œ°GÏlE¼ˆ0³íÙzñ(âX'*û§ï:(ç­wlûCûî¿R<ï‰}1şì'>¹±Õ½ÿ‡v/íÓF
+ ˆ"" Áw/ÙşÁíÏˆ00xÄ ğı°÷Õü…go=uîê->»Y]ë¦;p÷½3{÷môú/=wòÎWîÚ³8·0ŸçE£Q«×#DêwÇëë½0Xz¢ÓôFkë›iV ’	µ"C ó"FÚèZ³F:@zcœBOÈÂ–Å‰0 €ˆw–Y¶ÿ.3ƒ  ‘ö"€¤H +ÇÖ9g-;_U%;ç]©HÔ›Ë=øÊ*öúë½ÁfQÛV@DaD/âE@ ø»/@ D  dD EH(Æ¨šjú]õb‡ö*ØøÖÓõ‡8ı÷O—››ÇNó
+pQàQD€™™•¶Şa’DÖÖºÑpœK¤äÙ§YÆÌAˆ!YæÒˆªwÁú&¤91( `M$"@èQQi ğß½@ò€ìDÊ²döUUxëÅ;Ô`½PoÓ33ÖÚª*™™™½÷ßu™ïºüïK™P…!#²K œ\´1ÀÏ7ÌŞ™ö¡™ÎsŸúØ“}6[¾¥K{õâ•Õ7B¥\eQ€ «ªám÷ƒ€uŞ3 AH ´6€@DZ)"BD…Z“èÈ„í[·²/ızåFs3mÅ¨ AA„AD¶.‚€°" xf Ïb	Ày'¤Ø1·&fÂ üşw¼{jf¡²vÛ} ñåpÚş²ÿÃ6ˆˆ" ,D$°ín€@H(ƒñ8\²{ÒfXÕúe\Ó“zµwóËü£ozWÁ2Ü\»ãŞ{g„…A¡ğŞ›8‰ÃĞ{[äYQV,ÀZSU•Æ˜¢(…Y+Í!]TÌ
+ÉùóW7F¥>|p‰ØVœ#‹b®È:a|9?ˆ€ 2zñVy—•V‘%ä%X‡–P4[!”•‹ÂPIJ) ğŞo[êåd„( Âß5‘Èvt "‘° ycc¤”mÏN›Ê…ªoVÒ(ĞS¹äÌ;Ûj#÷×¾ø7¶9UéY_à]w©Å]õN‡­"„­vÇ€BçLQ™µKWo.?õ¶%í¼D/‚Vré¬^#T!$TíØÑÌF]Tk×Ç"Bˆ 
+[¥¹­,£ˆ  *öÀ”yL¥eåÊµªÂgŸ}øGÓÉJD	Q <‘ATJX€¶­,ÿP·$(("D"Âà1{`*Ç9{N&‚¸®[}u«O›Y˜U3Q<kÕş©©ÂºõO\æ¯Î}<áÆ¯}óâÁc“»ös™M¢¶Ë+ç¿õì'?şÅúêßÏÄs÷ZxÍ›–İ]ŸŞÑ-,;)ŒPšô`X¦Â!ï rÖ³ñI*µüªrØdYaÈ‹gçA‘A  Jı/şöÉQ^„&¸p†£L€„Ä“""baDáïº  âwÓ003
+0‚!a @( „,ˆ…Gï,»ªLÇV £ÚÎ„dê*ë!;«‡%ÏEõCû§½Ÿ§¾ÌäÖã|ö!í<<7Óu]\çõ[;¬>µafö6×âñ—¿ğµ~ »çoù¡'+/œyáâK§¢Î”Î‡Ú{¯¥ÑÈ‹UqÂ@Hƒ,í«Š  ^Ø‘(@D„í
+áQQ½‘ìŠÂ 5 $ï	Ñ!`  wÖ(Åì‘^6
+)µ]·ß""2!fy¡T`Í"= BfP&ã<œ1P•£Ai#@¬5cC*ŠÃ2/T—D*j
+T4¶Şa=ò
+¨3l6¹NÚ›€v.ÕZÁúçÏßZ¾¡ª]“­½;‡ıµşÌ§chOÏNÎv®zFÑ;«!ó`GE©lŞ¬¸ˆÁaSY	2÷$À¨ …	@1sÅÙx¤¥r
+<°½~îV‘§Â^t2°"@Rğ²9@D ”BDÚnÛñ¥Ë/>óÔóO}ó…½÷Üÿšû?hX\„9„ñüm+«gâò|CkSbQÚAé™ –Hè:MÊù*/Æ¦fŒ‡a{z:l…¤"_’v.ïÚJİ³cº[ğJÿÆ‰ãGÏ¾Õş#·mª–Âz#òÔÔ¢ğÎ³Hè¬ø</Uµ2w½qQX%Úï¦$dFå‘PAHĞ;îÛL$†æf[Ş;`OˆÀ@õzí’1‘ÚN:ÌD€ J!TîÓŸüÌÙóglÁğŸëıozæù‡¾ó]?0³cNk# ˆX†³‹w>:¸¼¿{á‰8ß(‡#BJ=‚ŠµJ*Œ4¤ÃÀ	ZËí™™ætİÔC ¨* êÓ¡Ü\5†v×ês}7Ïœs:­¶2ÛwÒ‰¤j’V½î€Ñ"Vn.÷¦"Í~Ü+×·Òk[ÃÒ¬=ƒ/ˆY4i$@ÈHÀ €¨½çáêÖ½¯}ÕÑÛ2ˆc¯‡ƒa£5!H¨•ùnMD
+4Q:}úŸùÏ¿ñ;O|é™3/]^Yİ˜™½qcåK÷åÿùÁ?wwíØU¯%ÈâA5Âé½áÔîÔÑúòõÁòrÕ-éhPÆ¹ó^“$‰F]>Ïœ‰Ã¸YwHŞQ ##ªÜt—O]#£¯m®˜ZGõ¬´WGC¿¸ûo}Ë•o?Õn6`õÆ7fâ
+éoöëq´ÕÏ/Üì­f.Gã!e<Áö3÷ PEÍ@ƒwŞ9@" (âµÖãñè{ï¸ıäíàEÁ ?¨7;,‚Ji"BD$axùüÅÿøË¿úş÷ÿa§3]k4Ã$a/  ­N½ŞşÊ¿üÉÏ<vß½wONL ³çªÒàÂNgñ¶ÚÜAk’îpÜßZ·e:£]_îF¥gÕéÌ:2aVeÅ•Í£ázºv~ÅìÉšK[I{*u¾?øl¸réLË˜ÊñJšª·¾ñ€RHÀÚSµÑ¯¯oùˆÂÊ
+ª@€	´€ŞS‹—jQÇh`q,‘I‰0aÑ«¸WkrZ©Ñh'-B¥5"	 “+—o.?üğë_:{yçÎ}@¤4! ³  "e¤QoÚÊ}èƒ<xxÏD§¦ÙWY®ƒØª(^ììÙÏ/İùğ»jûîª‰Y«ÃÜ†ıòÂåË+İ-ÒZë*Ô‹öyQöıÖJ?Uz¢İˆÂp¹·ÕËGu¢ùZ4Jé®³›ƒL“"$¯A!Ù};'VÅVL£´²–Y„½×ŠP€	½b— ?4Õ¹m¦>©|fñ¨­ÇéfWR·œÛ%ª'şØ§wì˜ûgïùa5YEŒ• õB",˜%ï³~ÿ?½ï7¤Œv.Î² 0{ö ¼=«‚ Š° Fq4;7ÿ³ïıwïıÉ·½å‘7Ô;s (Ğµ<Ô@I²tÒ´Û‹îŞ%bÄ¹ª°e:§ìQDV—>Ã[W{)úq–pbn:i¹ÍË£…Éf¤y«ë ¬÷²‚]Æ:Ê*®ŒQ¼ñ€D77¦š/¯®§®`°~»c#¥ˆ@˜%d^á¾Ã;^{tïî6ÎÕ¥a ÔÒ©ª¤V`…w€‚@Jµ›SŸùôãí£G™0èv·Â0fÑ¤ŒV$ÈL®úã?üãşÙ‡w/í±ÌGaÇ"RoÔ´Ö/;%ˆ‰ÂXúÃƒ{k†Z£zÄÀ„M¡Ğ±EV)KZ‚vÔÛÓQ{*˜š«M/^~ê­lTe|óÚ5Ô![¯@c•Giyk£·>Ê¯÷¶ ®åŒ…	¥U¼~w†—Ùêxu%]™­R<€gğ,¤4 p¢ä•;:÷í¸ëàül'‰E
+ƒ$Då] ØJr~XIi+Ä€ªÕişí_=¶°0yìè¡2o¬¬5Aë@luåü¹÷üäÿuìĞ>LèZõDéÀzI’¸ßÛ*­uÎ+EÌŞ9'Ì„H¤ÇCWõ×İøº÷©åÊ:ª°Qk³ˆ¥M,hX”¢˜É‰ã‘kçĞ8ı¥¿÷)él³ºxmëB/[İ\[Y__Œ¬Íöş=»ÚI-*_eÚ•%“¶YÇõë·zƒÔ›(q>cf/^‹'B…¼«¨ãŞ›èÀ¦€FÇ-DßP¢í†¾¿Uä…N´Ãx%+µGîÙà~á·g§Z»wOöÓŸ×£?Õ˜h ‹8kW–WvÔ”öâ'¢„-wû™Ea«	Å¹`@z¹Ï¸™æó»¦wÍ·'=7Ùé§V)ƒ¡ÎŠLƒR (ôÀè˜LVäÃAA;ÿ¹^ûö“på;µë7O]o%œ‚pks`%´‚76Vƒ>R<ÖáÆÆ*yïmY 2h] ®˜½€ a 7†Kíz' B°¾ ĞŠ£“Zk~7¶w\ZÏ.ŞÜ¬×'gA˜šœ	uÆ Ù3{Ú³wßOü³_şÜc½æ5w¶êZ9‡•%@zµ‰$Ñxp®ùà!ÏpÛM i{„GAT ‚ „0‘D§_ºlò–Çƒ®RàEIœ×H ²Mã”²iUõ‹2ÍG^ kÏyËÛo{Ï/6^ÿs×—×6{¡	²4ÏòòÂ¹Ë§Ï] SŸ™ß›Eµsç¯=üÃ?FA¨½ˆ”ÕFnKR•³âEƒ& ,âëDu0â{G•DI­9ÑéLMÖ›¢L/_>—ù¡ûº½Şr6<±kúş¹©–S(B(‚È¢fgw=úúÔÄÎÕåŸÿâç>ÅR ÙîêÍÙ©©ƒSÑ}‡:!€³¡£”gúß ˆˆ XœóŞ{?ÛoşıéAoÔİ\­ÕÂ8IÊÊ+FB'\yÇŞ{ï¸(+[²Ö¡2¢´ÊœêI@K{Y˜å‚ZÔlï<¸wÿ‘#„O?ıÜ™s—ù·¿ğ¶ú	­P+À ˆÖ{7³¼
+ƒ@ŠÊ{/,¢@È¸´™­Ø3z ÖÌ("Åxl¤ôÃA>ÊÆ%ŒºéK—n=øÀá¹vY<İR×F	˜td^:»öê‡~ şŸßÿ¥·¿ûÑÜUãŞV«™L%ÕâTÓ{k«de&šuÛÙŠi@9ç €Ğ˜À{ä…¤=5¹±¾1µcQ¢8¶,À ”~yîE"@ë¤°6Ë‹¢¬¼÷q*¬,Å²Ü·ø~êôOŞ<óœõ6oœîn”İu¸ğ†ùÏúÍooÔ¦z\éØ$İÍşÚ­ë×¯ôkaËâÊ"	QP¬KKKZš^€7omöOß5?Õ4h0µcí©ø¡·ÜsdqŞ@ê³·•\é÷  ˆ&)ï9¶ôÚW?0êÿö/>º¸k×·ß67=aØ·réìUÑZ­w:+›=Cºr^˜DŠ)$ÔÀ µ.×jÚè›×W÷:V¥2*Ëmea°7" ´BDÊó¢¨,‹#£€©È+•÷+m—nÛµëßÿ‹Ñ`ùÆÍÁ`´Şü“C‚fKGLˆÔ±=a™W33ÕĞwêõ4OÇ•T¢ ‰	‘=ÀLœLFIêİÅ›««+cĞÉµëkƒ­áâÎ¹F=áAµw²±ĞRAŞº Ì ğç7úHDPP)´U~òö#Ç=vìök—/õ‹õzƒ«—/­^_¸>p…HéİVlÅ˜0dö€Ê{oŒ	ÂPk-ìÙ;g­Òxãâ•Wİ}›HZví;·@%Eš­Ã(@çØ²Äş`œ§% jT^\å¬µ˜P< ™ÔùeİèÔ¦æ¦vì)E&D`HIïÛ;[«¹ °Ê³bD $RZ€gDĞóÒ§ƒÍa-œ›˜«0¾x³gâ‰Õ«kSIcn*´i¿6Ã8N±	©]‹ê†ğeğ#^¤ŸKåÌ[Ù¸Wdw½êA¬|ÿüY±ĞKm¿r+½Ñê0[½v>Ò¦]‹[I¼”ã¼§ÎÚÒ;â‚zçÙ.·šŞæÛ4•èÈFUEY…-Ë<+ªÒyÏ‚¤¡²Î1#Qa+,D¢@ ĞX`ÔŠQ€ òÎƒ BõĞ=sµ¦VÊÙB¶zÅĞÊÈ1ˆõ~›~€¿X§Â ·Ùıö…‹·Ö×_yçÑc;&4[Fêö‡ãÌ.ì˜E¢ªr‡W·ıÂmãdnEQ­VK€^8sñ5>4ên,uÈ–Õó×6„Ù¥•ÒIá„Ê<ãªd„<ÏKkIúm~-H„
+u™V33/²÷ğõöô¸°qRaëu¾²Îyp^ÆãÔ‰l£+fŞÎü¡1¤)¥µöÀ±SÆ8_:[ÄIà„Et‡ãÔ¶šfÇÎé[×®£VÀÛXŸy›B¿(»öOuf¦'–,4ëÉd-èÄÁÈÇiší^Ú™Ô&Ÿ{æÅŞF/0-3o¥(9€®ÊÎ½´¾¾ñå¯=ùë¿ñ‹I{òV7•Êí›O¿yqÇLğĞƒ·?ö¥¯Œ9©ÊD<)R”’~5,+›KºdN 1J«Õ×Ÿ¹üìùËñü?´ÿÎ*ÏIÅ««›ÆŠ(§²Í¡lYm—EB´àà€;f«5:®@©@‘ ë­cKíÅviéÆÕeE®ÕNØàA³@ ‹¥Ïnt×Fã(âÓá®¦o9’ësµ¶¶•eÅâ®…Ñx˜U¨À@bf f+$ÉÁ£GçwşÃµËgƒ­n÷£â…Ó—e$¯»ïÄ¯şâı÷ÿò¯^³/©V¶Æëı½‘½¾¼¯eâŞÚƒK·[<ß·§ùúãóS¥«JQ£R70ÚXßô®(«Â1 ) D£¬XÛìòÂ³ €0+¥m‹mZ)D "çÁ3WeŞW¥UdªÊyfR‚ÚOÍÆĞL7Ó­Íõ™É©jÌef™=ƒ"f BÏ¬¢øÂõåf09QßEà!Âf½]yßš¨GµÚ…Ëë×6}:˜œ5Æ8 á²,äÖòjQßú}ïÛ½{ÏÿøOo^¾VB°–W'çªÃ»g}ûÍşì{Şöın¤Y•FÕí­ı‡÷L¼ç›—77‡?òÈıgO?ï‹â™µ*4 ä¶¬´åùp8"0y–	3ÄahT µ.‹"MS"J’•¢mI— ˜Ho“¼¢(Ã0ÑZ#¢÷˜İ6è+"'ñæ–-3Ë…UÌÂ¢‘Á{a'ªŸ•¥/ví×7ú•‹ã€¨t~lBªÕ§.]îıİ§¾ôµç¾üÄ·‡¥KmU°÷ì…·ES0&˜¹ë{V7·Z3†‚Şæ âæõµ7¾êÄ®fŒ¥uiË6:õ8Ï
+í†K»'öìh§›·^<óşä#Ï=óÔÑÃû½-˜¢ˆx+yŞ32x[fã4}e]eµRI­Öh6µ1Ş9[éhÌ/ç§ŠH ¶6&`† ˆlKßZ¿ÜOiJ“JÇğÔ·¯|¨Yyï•(‚Á¿1óşÓ§^Ô\ºµZ%Gï:5-JPñÙ‹7ûĞ—æÙ·¸cçL±8Ù9¤%’Ú.ŠˆJkuîÜÅ{¸kÿÁƒÅ°@c*[ñÍTV±,î¢V¶<RnÉ3§.˜Pßöª{°ÙöA´cçlÖî½cçİ'İ\ïo2êŠ¸2£@ypNé@k„jTd Æ‘‚2Ëü¶k„a uÈÌâ½WJ9ç¼ç$I €½g ¯µ±e¡=—á‹§ommº¸QË‹şt³éGŞ©ÈúÒyK  L€B
+I	F†ƒ¿şÆ9GOìiÅv…•¢÷Š7Üf(šnÔ[S³E™Rº¶94†¼0a™åY:|Û[¿Çy&­¯._wà½µ¦Ußß|Šş~ğ’¤S6òã¯>qø¥²èEqâ¼wùÀ@züÈ$‘–tk]¸‘—3T>4şßüä£»:¶Ì†µó1×›í<¯œ÷@è,+RAª0ÒZyçE¼6Š€ÈºÂ{¶Ö*¥ŒQ„Tˆf åƒ ÅgYF‰pUÃf¢Z*[†€I!1pcóßñÎï½w‹åO¿vúÏ?÷­å~X‚,i¾öá÷¿zißmÍÉiU«·¶ze…ÈD  ä|¨  šÍF'ıÕåıí	.sp”Å(€ËO½P3¤ÃA5:ÓÀ<êoNvšLÔÙµ³=3Q”ve+[F×`ú^:{©Ô‘ÕIVø|\y%Íóq6fÔ¤H	#0Zkã<Ï·E'D¬×c"pŞ‰GgA˜„Q X;®ëo-Ça­;²/bòÑ0´ bP„{››Ço¿íçùß/<tæÂÍ©û¾÷ÄşëÖƒï®ßù–¼=UÕE7¨;]\ë>yi9‰c@$€Zd6¯¯_¾zåw÷×â(¨Eµ“Ìïş•Æ¾·NNuub~ö{&§ŸşcMÄDµÇ0+œ{ùæ•ÆìµÛ*0€Ñµıã“SB‚ÚÏzö+ON¶vî9;/Â€¢Ê¼"DEŠHƒ 0ğË7Ê¶šç½aPJ!¡g‡$DÀbƒP“¥QĞk €ÓÓá}÷í»pyd-t‡ÎÙÒçU½Yw¥0!{AöÕâ©¹ARß¯üê¯şÂ/4fG‘¡øDîØu{wo¬_¼ÔïŸï5×Vı­@37êñùó/ş«ó3?ğî´s÷Bå„ÿ›ÿüg›ÃQ-‰7ÇT”å†7‰.}ëÌO<ùàëOVJØ9TĞh6'[­"Ë-åÊWy­_\|ñz“jè¤„„íbe£FKö|ëé§À›é™ù ®o3oï=3€&Í"F“"döDNÄ˜ (
+B ï½÷N)@böI3BYQyï®¦a¹¾2>u£¿9n´j„ämÚ *HÇƒw¿ûÍ&{¯ëI*®€
+ñ€jzöh§µë7öß¶'fc¥;[æ§._ùÄ§>r×½÷)J(z›£ëWõŞˆÏdùHGƒ¢˜Ifçÿä?¼ÿÀŞ÷MÏÅ£qšŸªkA|õ¥‹­v]¢æg¿õ¢›År¼·ŸhMnİõ5ï=¢¹ÿ÷}ô£¦ç’0Ğe™#‚Öz{l"TÎÚJœ·hm ÀZ‹ ´QˆR–%z†@kÑZ•U¡zM¡pæ]YöºsI-mŠÚİ¼†I½	Ş±
+ÛñkzPiL`­ xï%4&@dñÎƒ2ø³œzîÔ/üÇ÷ÅI-ŒÌW¾öùƒ‡”,èA„Q£ ljP©Ï8NsÍ¤QÑÛßûsßøÂW^ñŠ=íNÍ{_ôºËß¹Æ[U?Øã¾rõÚ‡>wºµ°#¶İ·w–BÒ·¢×uØ%CF4¥îïxç;ŞıO–;zÛ¡¥ıûf§§£8g«Hi@¤mÙD¡¶•ó,â3BFÎ9ï­s³¬ğ<"”šÔæfŞ‚Ï{hKç±—W:PX¹f3!gñØÁÛ&Úu"«E«ĞW<¡xàœE‘2@†âZ}vq./á-o»ÿßşüÏOÏÏ—A)¥”·^!Àa€Ä¹
+.åâ„&­Û+eÿæ½÷üFP¸øäÇ¦µN-02Ói8vãªûî›Òi\Í“ä¶Æ|•Ö¬;£tÅ”Ç€•æPkxÿyøï]qñgŸ> /N6\Ú³{Ç];ã( oA\•V¤øå9ƒ".P¸]¬#AÈ^ÁRƒ±ù•‹«ëW³z­>êoíšÊ6‹İ±µU:ÆZ¤;­öĞz3Î] ­^ÓhÆa\Ã8¤@ë0P–Àr)e6ÛlüŞG>öïşÍ¿|ïÏıKAmI+ÍŞ#"!Ô}À¤	µä×’Vg.¿ÂÄ«p£Şœœ9t;Ìv†—K³na0>Ğ©füìı¯¹ı{|ôéÏí[ôÏzHSÿøhÅ$“ˆÁZIíùï½³UTK67º»w-üò¿~ôC_9?=9Åñˆè“ß|	Ÿ<½1¾riá¶CK»wÌNuĞQh„}ém¨±(rÇ¨¼óx6Æ°CM
+ÄV’Ûó“ÅhŒ	Ã¹úôÑÅ‰sëƒĞÔ¢0ê†ÖÚ–ûíßß\¾¦Ù™HšSÍÉvc¦^k6êfÒ¬AV¤™R‹É÷¾÷_ˆ”6 ´Í¬µH
+	w.bn‹Ğæ¶Te}ã8   A­uè©wPU1ˆ¸rÂk]›ìa3lé›ë2£q"^h.†íÚoåköğ¡œh£+oÓ‚ßö½oıo{l"Ñ)W@:u€IsfòÊÊøÜµS½ôië‹µ`÷L}ß3ó³³“íV£&õ0IËÊÚ<ÏERôJ'QèF´gïìéoŸMè<ªuåæÚÔìL•:¢ÛV
+l«6sÅó3»ö¡suÀ
+û›Ø_Ff% qVbw«±4÷?>óñÂ 0„$(`ÏÀ(Ì¬Å&9üÕN!    IDATxÈ,o¦¢z#ÖQ’4”®9€zR	h§ÖBÓªi²eÑåŞ]ó{ÚGÏ$YÆE³?Æ|x w8îÄˆxßJâş(5:úíŸşñßù³OíÜ;1,!R‘QJPÅõ¸©SÓgE•eçntO]ge@~syóöûï ©fm~vbr¢>1ÑÑ¨µÍKï}ø®ãOşİ·ËÌl”ÙráÇë[·ß~øú­Õ¸÷Û§O­û®[£q»Ñ(m!-²2†TÌ@3…QVd—“ì«ù_ªİ¬¬#ñ´B ö,„ì<8kµ²0õío<±ŞÙq†8ÌåHY^M÷øqßYA\²?8õâ˜‹ì¥+7ÿç‡vÿÌOïzûÛ`fúëıÇqg&˜^¨¹rÒ‘N;:['¨=£1‘VUewßsç¾O¾°Y¶Š¢*ób‰½³üôÜD9ôál§HËq¿:Ï=…É¥ÕâÒÊ-Eè½kÉ+ã¨ÛİÌú½a·t„AP#µ½`6èï˜Ÿ9qÛáîZouÔ_/³ñh˜F£á Gã´,Ëª,áÖÖæù³/}êO?<;5£C4À, ‚ Ş{g­³ÎYg¼÷^›JÉj®£¾@ækeöÒò
+WÒ( ²ã/ü§ßúø#oŠ¶†®×÷Ï?›­mÖXyşôB«ùÊ¨}B“£tr\E£Që¶%ï„´6ÄI+R•­ıÇïüÆsÏTY_˜çí­c"L @U-o]¹Ä¾*­â	mêˆŒ#¥	’H7Z±Şx4k½[İ Ş¦˜º®®tOİXW gN=×\Ü9;5µ>Ş§€c/Î­•AP®rÎW#RJÑ¶@#FU$–Emo×YçØy¶D¬µ`Ï‰#ı«ëf©ÕiDz"4­zÄço\<}fé»kÜfú£RŸ<¶øÈƒ»¼/Ú1i÷#¿ôkGºµ¾9¬T L€ÒÜÊ*Ê(Ãl¼&"Àq^î[Úóğm;6]i…ˆTiçR#©G«›[µ `W†a&ÑµÑœû”™•È%jtšóÇ–nÓ‰×ıà>úÓïiwtî ÜóŠã‡ï8±w÷ş›77{EîEƒÒd‚À:‡H•s&¬9ç >üÿş…&eP%F+… (^lQ‚w^„¼ˆ­Æ£´99ñàİ'8vkëeo½êua³Ÿƒ|ğ7İ;ÔjÿÁoñÉP›¢õÉjfâù/|/¼”ráQ¹v²úkŠWEÎ\8;HÇ"RÚªt³pi«Z­áËò¿îùËã$’$‰âv³…‚Şù^w0Œ‰
+ï+ë§ff*_y.œ¯°¨,’B!_ˆzÃkç‰¸t>³ôôÓ«ëWoæ›Ï>sï+î8w}õ{yQğ•/şı¥•µPaIJ*OFZïÊŠœ³Ï=ûüÿø£a[çP˜½s¶´ŒÌ–½Øñ »qsåéçã©³ë‹}Iûd­uwPÛkB9s¦ñêû§wí,Ñ+D O¾v£ûÕù™bznX.v7WJwf4\upÓ±¯ğØ+nß±·	vâ<8çˆˆŒQ•ã¾õ”‰ë@|eAÄh­µbWåYæÏÏïîö†^•ë*qN³1Ñ½n3ÆW]í_˜úìÇ_8rÿCï|Ûà©¯ÿı—ÿÚùçO× B&´•Ñ¨ô»£qock…½Û\[Ç½î¦³öğ‘¥¼´«ë[¹µÎykw½yöUñÏ=>ØX»çÎûÃƒ'7‹4¤ãñfèÇ“>=²wé±ü*S‡R!Y‰|ño?¾‰şétôÔrï2é¸ÕŞ½gggW'i›ºKİh”Fƒ~?ÊÂ!é$IŒQB¸cÇìı_é®ŞàbœG¶(|e‹4±@ØhMI«×·Z“Æ„®t( “(ĞU™çi_3Q½6sãôµº×‡à©¯>×U09İşê¿Üsò®/}áËø¾ûï¹çäõ×1°²Ñí=úO¼5Ñ´şÎ·¾³gé{le…hbb²Ö¨²˜0  mïÌ³ÍÊqwøØ§?Q}ı;oÿ³X}jµ{nÍÔ—Z:À*widdã‹_?ûõ'—^sIb DËê³gŞÿ¾_ß}`ßJî‚v;Â­Á 5t5¤ãfgşÚ¥kÖ»…VGiq®Ğ…qtbÇÄåQ&M£ï¤ª*	Mˆ&L”§ÙÚÆJ£ÑE LyšŠgCàØªG^¿è¨]k]|ñŒ	ëg_H;»§?û•ï,_ºñæ×İuıæõs×Ö&"øytvq‡Qpåò¹]‡oÿw½k\ÙZ£¹t`_åì‘ãÇãtç½—¯]ßµ´'ƒØ£Íö‰˜<¯.¾xáñÿúãŸù±»ï;øº<Ó©§Z}éÔÕ Ÿ)²›UiC¤
+®Õk_ùÌãÇx 1=ÃÎBşå¯üz»$­‰k››ˆÖØê‘¸sÔ\Ò±	âëiNOšZBŠ¬· È VUÅ€FQ1?ÿÜİÈD  ,ÂŞ••u¶*«V³9t½·Ş[®ÊBüö4ËŠP)¥AÕ@ù`îxİ+Ò?Ì]ºÙè‡ìo7¿úßÿü_<úØ/]ºväxË3îÚwüÄk7Ö7ffæî;wŞyr”Ã4íöz+O~óÕ½v0˜XÅ•IâD+Ş+¥šu¼bÇpeÙf•²ÕúÏ'Si
+Íz6|±¦×ÅÚ¬¼T«âîäÍ_ÿÆ7fg§ÿìÿäâçŸP³­¤VíªÕæZí²;šLÓ @Z‹‘.]yÍ÷½„¦'g“"…€•u…÷6Ñ_~ôs÷¼ñÍ•ó\UNœ‹Â€„}QdŞWZ"jEìD¼Õ„ÖZ+ìÅjašrÎK²ícw¿õõG‹ŠÖ×W¦šíÿû÷ş  *Á;ï¼ësş;£ñîóñ”.³Ñ‹ƒı‡¦İî­«7æŸüæ“÷ŞûÊ­­­ó§NïÜ³³3İ)«lhàak²ıæ7>ò¡?ú_Õ¨'£ÑÚÊŠ~á¥;Ü¶(üâÕkQ-HÚƒ
+lTOÄñRd~÷Wÿı=wÜõÕÿöûï<zwk4f
+ş~˜z°î‡C¨U&ê)\s¶o+÷ü‹×Ï¿ûÁW™8ñìEX@@!DIòÂ3§À²ò D!{‚E–¢øqwLÀÌ@ZçE&Î‡!R,â½S
+µ!ÏŠ’¸Şh.ª‚iJ‚ÉxÂ¥£_}ÏL«qåâ9€bvfæ³_øì~ûßëÜGşÇŸ†IÜïçÓ;w<ı§Ö6ûPeŸûôgâ è¯¯½ó‡=räpæÓL©ØÄ¾*	Âz®­.ÏÎLõ¸¬6Fßùö™ õúf‡§§]VœÛè{Ò§%ïAëê•ùvòğî¹N9 [¨„jŠã:Š¬[ÈQ¬o‚Ù©èĞ¾ùvˆ‡ì/DÈ¶Zà¼õ¹Ï~é'4¡ÒJ•e	U^Z[5ëa9¶Ì1`ë<;+HÊ³DQl­'dA*°N;Å6 Fhf:õ#Íåä‰;77{¿ô[¿NMÎÌÍìÜ91Ù™Øµk·/ª*M;Q0=9ÙPJ³¯…ua)‹Â2ƒ0„&"TšèGê=éa·İL‡#›¾ExÊƒš-ôª²Uoün–ıjU®·Ó¢\hÖITvF@=TgÓìE[=íÒïäÃn¬’V¼ hf3ÔÁ`”j0„Àì½wÎy Æûë/u&f<c µ°hÒÀÇq§İa_°Ú)[9[ñw!dçŞ;­ƒ9¢JÊ‘³îúÕs»÷µIÕK[„Fß\]Ñ¶×»tñÃÿ³jÎMÖÂf>¹²<xèøóÏ<‡ĞH¢Ay JˆÖEVÎï\°Ö•…³Â–4 Ì4§0È{é
+Æ&Éò8Œ¿=+¦=å 1LJ£ÅÚÄ›	TË Jn={ñ®æäÙbt¥–^÷¼i‚¸‘´»iÇ$Êå&	[J5.œ¼ÿş*	‘ ÑxBö•/Êôâ¥sPÜğLŠ”¯*`&BB.œCïk}eAiö9"¤‰HÊ²Ú>³Æº5q²^×Ö¦EZñı~áxC<qÏcz.Û”››g7ÎÂçŸø |ßÃ÷uZíÀâvb)v¢K,½õ*4"\f£²ÈIÄHUeMdH:ô»'^ûÊ.~êñÏß^o½ra÷·Ö®]O4—îÊÆ@¦gºÃj)¤I+¥6<uójBã¬(3=1SŸF£¬?3®î“9PiR¦tßŞÜªßyÒÆM£ë¥³ä¹tN€ŠQFJ]»~sîğµ¤3&dï«Ê
+T ‚a2{km%Ue™9BTˆ*Ô ÁÃ\Ø×šÊX`AöÎ)efw}ÿOÿ°vœß¸uí[yY¯·ö#ÀrùmoèÊåµ³§VYélÔMS§C:pìX=
+?ÿéO.ìÜ±gÿa·«‡Ú*ã¸ÔÍàÀ±ÃüÖFÙñãeÏ8zàÍï~Ç¾ãÇÿ»¯ıåÇ?3®¼ öyû‰W`àÚM¨´ êÃéK ÁâÔÄü:N›øš]ŞÄ°;ì¼ûÈÈW­¼BeÀy[Uy‘‡Aüå/}mvjÖ3ÁÒúJiÅÌZ)cL6Øbfg-"yïÔwOb"€0pæœ^ßÜ¬×šJÌ¬C0X¶–µË(òTéxîğü[Õ2€‚üàığê”×7ÖÀyÎª20jcy¹;J{ƒŞ|Uæ*ÊÇi'æzzrAËüè£ßwÏ='77³Á(=şúc¯}ıƒõÅtş:_ÿêãóG÷ÌÔ’+ŸúÄ¾×½é/ÿõÍïY¼táÔ«î¸OKü•Ç¿xâø‘öÎ…Ç>ò7YãÍïøş}‡½péê¥?ÿpmíúñÛ·¦&t–\¡$I¬­,¯diñ¹OüÍıoú‰¸Ö£z½Yª¢(l£Ñ(ÊÒæy–gÖY Q„Î;£f RaHE‘“RÿøOÿœ	AYf¶´§OŸ®5ëû ğL¨Pkˆ\å˜=0{Q äYÀ" ‰ğp0ñµfU`Œ™â°\›ÓV=@Fâ Ö˜Z¢¦ià²ÈYA™fe‘‡µÚìü®ZØØ\ßìLNPh*f!``E`†ˆTS
+Ä‘	I‰õã"çUÁ¡1DÖ §YvåÒµ?úÃ?¼µRÄ­…
+ƒØ¤’¤!°+†Ã^@jÜß¶¢@ ¢aPÊ0ˆ	ƒv ’ú•Ä6ÿ³ÿ¯:vçÉ;î˜™m&I-NœxÏ…ÁV,,ˆZ‘Ğ{°Î *ëH¥6§lmv7FWŸW»¦¸Sw®R
+¢¤æWÏz(§\IqgúğÌ#Q-RÔÇÎGÓ3İ"'ç•Š<¢] B5RšAf"d Œê-c½²YZx–@Ä¹ª¦áÉ¯>ñÕ¿ûÂ£o|å‰½¿şş—NŸyæìÕ‘dìÑ]Òèø¼0&˜œhUÖæyŠHlé {ÇLxñø?ùE ¾õ¶TÇív7Í/]]¾|ùÆk+«ƒŞO>ú®¥½»•ç\–ÎûØ$€Š½8ç,ƒ0KšfAÆ!qÙ³½µşå+f¼‰Ù`¶nv.Îc`<;F£Y¡iÏ,õÂ¡“>ˆP…HdsÎ oŸÀòÊ¥azÍ‚oî¤À$aà¬õ  ÂP‘ë-!_¨´ôe9b[·zŸûüãúÄìüüŞü&ƒâ®ß\ÿõ_û£çV²z#@>X3˜²2ĞaUUŠ$Ôa™W¸½s,äğ{~(ËÇ\æ7Î6 K·İ¾ëĞÑã÷?{5Üê9®šíF³Ù­+ë<³uN‘õâ™µÑÊhÏì…ƒ0’2İxé©ş…ç#¦ñh m¶oÇüÜüt+b¨]}Íëš{DÑë°”,š4 { TJ£nGdn‹ÿ¿½3û•ë¸ïüïWëY»oßî¾ûB^’WµP’%R¢Æ›ìÄ	2Jã?å1ï3Å`€ Ï<0ñ`Û;–-ék[”(R4).÷^Ş½ûö¾œ­¶<´DÉ™ô¬ïKWŸ_¡Nª®_UŸS¿ÏÙù)ĞSŞÚ“Ä#àÔ*d˜[Gt2 (ó•ÖR@šçã´Ûœ¼8
+õ¬UÃÑHÄJdgs4ıï×¯ı÷¼¥(:xxß¤mëå	7Æ€5“ˆ.Ï]âh¾¹}êÌjµVW@¿øBoóÁí76úéH
+ÔUÊå‰2kQ0a¬IÇCm
+Î˜çùgÀÏg„©qïğ7o•yp÷7 ”øcDÂˆUÎ}ñÊ§Q%Œ¶[Å0Ñ…rekcmA)TÂÃ©µ¨ºH$Ô˜Èc©$Òf™sEïè}Èy–&…óÃ:àœ“,¹òwß;Şº×;Ø>¾{­8Üô\ŞØºsç_Ğ(ö¢ÒùY››­V§»íN” uh-k4BÚ‰3r”Î¼ğÊWö[ƒ§¹Ğ:Øéß¾-#bãÒâ‰“À¹¶¤Y0r ‰*
+gUôºã0ôÆÃ¾uÆä©÷$ÇÖÑ¡çTÖØ¢Z7;Brî{¢GQ$Y©vîÅß«,Ÿq<¶Zõ»=]d`µ39¥”"ñ#Ì˜Á İÜé4înnÍ./às“_{$éédÈ%µŞMZeèëa,µÄJÓ„{2´(¹·²´tãç?³ƒİ¿±!$«•ÇÎ¿$EôÖ/~ÙnìÍÎÍG‰ÇÌ³–pAœ3"¢ÑšRdKO?Ï­Lk6_zçÿŞ«×çšGGFÛN·#Šq ¤ç‡ç ó” h¦Ã1zØiS‚.ën¾÷^ìR¸º~¦qçNcw/kw•°0vœ$ƒ‘ä|îK/zskV–ŒR£ş@+¥Š¬•‰J¼÷ş¸µU• óŸ¾tïı›Ğè&¹f¢ŒÃæØÌÜÖŞÆ/íş lXŸ9™»0ë„†»;Zz³«')•|Ë‚^§—RK\ÿÜïyX­Úm¥ßû«ÿúøÚò©™`¿»wïÁ0ãJËS%h­Õ©ãœkj":@J,:¶°º²sÿf½R¾õ«Ÿšv³#dT+ïoŞŸYZÁÑˆs_z2MÆ„S†’P°FYk)ótf„/¶ïÜ.ºM·°|ri99:¾õæO03"-:CŒ2¶Ğdœd¬ˆiiZSÆŒÕyfµ’‚IZk´R*O]>4cå‹²Ùú¹VÕÏ>Å¸¨O‡í‡÷ıÖÏöÓ?xñ?øö¡$Ò§Üx `8LûƒP†2;6H—R‡LFA}õdãŞÛÒ¯=ó‡:–¥AÛ«Æ›7Ş.sı~QVV‰\8j¶”“×®İº¿u()ÕÊ¥ÆpÏ+”	¥tÆ²æ¯~T3”D2\\Z¹·½3_æ*•~»7·vB&)İ ‚ô#&(ãH	QÊx·½õ Ûî-,­¯?q¦³¿÷î~Ä­á"”RGœu¶P¦ßm]ø7ÿÖgò$ÈòT;mÓ|¬%¨µT2?ªT×gÊÃ°L-ìîŞ÷!ôy)iÏ×ñxç§_úÚºWŒ–+­Ş&Ñêáƒî’S³'G­²lÜ_,×á¦ ¤Î8|áó¯üøÁ¢À¾…±Qp¯T¶AÔ9n5;òäÓ¸»éS«gÕO?~¢×ë1J›†ƒä ÛU@ïİÛFìô™IXÈü¡ÙÏÌ•%sÃ^weús:+œr „2Áé¡”ÇG_^}³Ñl]¸tieeá©.…ŒŞº²ÑÙº%„!Ô·ÚcÀ ‘b´M)ô²„ÇM‘:jÓ!•`{öu:&İyBd¡òş(éA²ìğıËg{!§:àazÜ®ÜÛktš·¦–m9o__{æßË©(·1 £¢Ò‚“Ñ@u‘ïM/Ÿ¥Dç²~rà¸aßŒu…˜ÀË]FŒ‘§ÃÀòZ½G:K«ó^\¾ğÌ“FgŒ)è{:RP‡Ã®/"áG§O</
+íh§	‚bapÜş›¿ı[
+` .½tişä)ƒ”å)c„Rnm ‘¢³HQ8pèñÒÒraÁü"rß£;[?§ùwl¢ô"öÒ°:ÿÙÊüIJı¤ğøç_æ‘d•ªõÕüŸ3g£ƒ½ÔÔüÜ²6~?/*Ñc…. p8¡ +ŒïÏvÔ¿ı‹Ëı{7bÏ,ÍÇE÷à¸“R9øÑ¹ÕWîŞ™›Ù9l,O×DN-£PÎ¹Ë²|1½ºHW©šòm¦
+Ë¸—d:gèDeùìÓ÷g)P¤Ö¦«ã$å¡”Œ¿ó«_N GÌ¹akwaíDÁ¤CéäÚŞÍ«œH¤ˆÎ1 BNbãH¿<î6K£ô¤ğ¤2àˆ±tLØÛÒÉ€°ûƒFÕ&«•´3©¬Ì	?°è‘=véó2,jAgº~Ê›­vûë¥9M-  rK$7€œ+2ÔéŞ{ãİ!Í­Èµ:÷|^Õhß~ã'÷ß~ËPf²!ÕÊ’iÅ%mRt˜$Ô*Ÿ“Lez2¹f	(EÏVã²R®eÆeÄfÂ,!…µÖ`|oï!]˜­ímm¶F·»4[=ºzöô\<öÃ¸utØï¶ür%/ÆEš9›#Æ$!±àÌxËF­ \]\9AR&ÑátõD©ö•NºbÉs~mœ~%ôÖ<êKáG~l•;êuâzÕÏŸ_çÕåÚâyojÕù3Ì?]­ÿ¡r‹zg- CF9ÚÁÁÎæ¯ìš÷ı¼EmFjÏ÷g×‚ú©í»×ş×ÿ<6tnĞéq«ÂpÊÆÑTTF=öù°c²PË|I‘ÚQJEa$Ëˆ‡ã&™_Z\^tH4RÚVêSNÑ°İÛºu«Ó?şÜ…gÎ_|mÁ³ck]©Z£œÎ//Ë•%¹Î_ÎFI»±ßnŒ»]§u<]¥”‚µ³OÏ­K
+çI’gƒPíÙù•s2 r¹&‡ín)šf“¤OÀÌÈª#! )œ£$ÌÑ¡âD'L^,1Äf<A°0Æè§Fùá=oxH“•Z$ŒÆ‹çØô	'"†Â'eOf»‡1ò!kî•êõFûĞó	Ë•  ™2Ã,î>`{;>3I>d½BUâ¨<·8{æ±v@lw¶·ßôóBÜ—œÓ€/Î=Q©U­Jz‡ÛQ`P)Ï,çÀ‰Ü¿y:cz~È<ïÄãOQÊ‘‡	*åT©\Ÿ©*2F™IÍÃŞ‘ciMÕ§çV, ÔJ9ÌîWdÖdV'”IDjšT’¤\x% ëŒ³‰.z»w²Î¶¯‡®ß›ò©V´HS ìóØúEyF9ræ‰3×êóYó,0œæ‰·nş&:s.ˆ§	“ôÑÁûûwÚo\­fÎ¯?1?5“ÖV#6ÿÒïKáS«|¬µÊ•ŞÉõg_îÆ„¨¢tÌXGÍM{‡wO<ıÒ©ÂÃtïÎ¯°sŸSOòˆ$Ï2æõ½¨¤ã~XD¡–I¿L»CÖz°û«kqu¥Ôµ·d\QÍ÷Ê^ì#‘VQ]tû÷bá/FœN{;÷ŒÊgO>~‰"c¬Éö7[Ş‰U‹$»ƒŒÉ
+Ÿ=·¼¼¾Rê`Y8h”U={şÖßµ(ÊÏœ>–£ÍÃ•Ê<"6Û«ı×O[ÈĞ4Fm9[1ƒ|E`æ,U'x•J‚xÊ¤Ö$”3zr½”ŒÇÖ¤`A{ÀIÚ¿çÚÁŞÖİ3åÊá{¶·÷ß÷˜É4ú¡Éƒ¸L¨`,GD„ ²¬Ÿô’FØ'µÓÉrÙdİ¹¹Ù©Ú<óbgû2›vL‘ ‘J†Œ&u6ÀtàĞ
+†j"%ã~³èÜK32ò-gŒ+F*é,ÌÆ‹ñ…¬{Ôiwë'æÂ81ü
+ŸË
+@±3›wZÙÙÊö\vZ¥©éŸıür†‹§Îº^Òı«ÿöŸ~_ÄÃÃ¦‡gWëP‰ßÎ³­~wĞj1T=OP)'À>$„‚3¶S“}ÆJkË(7¹Ş¿¹07/â“dİæ>JœªÕf­$‘kÓqBhÎX†ˆ‚  â	Ôù8/D«±ëÁ˜¡­Í­d@ÁZ{m4¤\ó(É½€X¹6yà{å GŒ£ £“©PôÃ8œšÑ 9En‹Q¿™tuÊYÅ•Òò¼á~LûAD˜4Î	Î$èşáö`ÿ!g|*ŠşÕ¾tãú¦ñõÓg›ÍÃt”ÍÎ{mt6BİÎº/KSÕ°%èæõ£?øwz$qÅ¡Æ‹t¤²4Ï“á°¯Š¬uÆq.„ğç”	äjy}1ğ}  ZpˆèÀ0J¡@Á1`ÚëÔàB&üL%å¹%…¶ÇdD§ÊJÒ<ÚÑÙm7ˆçÉ ä~)@&8Eœ%
+¦F»Y>]X²<(=¦Çï½ûëZÀÊ³s›[=.DÑiøQ	NUjzi¿»÷›wmÚ__?{ûw¸“¾”èì­›7O=v:‰KÈØt­Êeù^6ò¢!?şåƒ¬ÌëËï½ñ“'ÖÏĞ?o‹¬ß<8Ü¼?öÇÃ3…Lp&ƒ€rF… Æ€1nÓY­5g|‚@´Î9 cq°ßµè  8IDAT€R¤#Ä!€Ä¡1
+œa\„a—ÊÕÚÌtmVz±ôBÉE)£éééÙyELJ)qœ³`ÑÚY¥‹Œ¢æ”ƒŒ¹[5NZû&iåãöx4ìv‡i–¨¼}éI"¨A«,É’±)
+®²²dÚÕj¥½»ÓÜÛô’l<üò+—îlvœœ^^C¿¾´üİ¿ùVÉ+SÁÎÎn ÁÂºà qDO-­ŒûmP£V[Å9/MM‡‰–dr?d~H„dIÒ4¹sãVB0 Ä9 $ˆà¬³Î‚H’ÉeDà‚B(£”s!„“-İ@˜!D‡H˜ül³NXÌ¤^à…rß"¡„äSµz¥:_®/Æ•jOy"´¬2VË¸`œQ0Öªq–TêµV·—ú­F³×åÉhemö™gÏ0ôËubéÜÚòãÏ^xã×—ÕèaV^¼´~åı‡!ß£Ÿ>k¬¡‚g„q ÔÍÒ€
+áát,ï·ÜŒÂğôãgEh@Â}‹(Â2 £H)"¤ˆ#Ô :dÖAÂ9gŒI)„@@cÑDDK	pàc	D 98â:‚HÆ¡À«§-±ÀCG©#© L¸I/*7FyB8&}ã¨'ıj¥²¿³?ê¬U¥JØh41¨…ÓsÊ"Xµ¸ºø¥¯ıÑU®şä{óË•¸îG‘èªHg…¥T[LRmÉòÔh­”MÒb0Ìöó¢İzx¹uåa\é‰8¶PLş¦+j=RE®U®‹Üª<Ï’"Oµ.´Êó"WEf´ÖZ+U(e(a”‚”<
+ËŒPB(P	 @Yëˆ Lîœ1FcÀ9 4Î´Z+@Ö:gÕ`5‚uÆpŒ³†"Eg>mş€A„„qŒRÆÑàµÿ°ã/í_w;ûÇıÊÊéT¦Pù8Âğù/|ùOş¬màáÖ•ùš¼¹u·7·'4˜Œ|@˜<X¤ÔX€ÖZ cµ¦€”"a>ĞÂÿWøÌúQ&D‚È(aŒpÆ("€s8aÂ‡e:‚hİ#ÖíäsĞy €M'¸ÓIàú#€ço×>Äí¡kL»İåŒMOÅJ™¤ĞÌÜ\b D (çŒX£ú½A’føiö3ıc"Ÿœåw[ìã_666z½ŞÚÚÚƒVWWÏ;÷qëµk×Z­–ÖúâÅ‹µZíÑñwß}woo/cJi·ÛF_ÿú×ÿ™ªÿO$kík¯½öüóÏ[k‹¢ÃğâÅ‹ØÜ‡º{÷îîî®sîêÕ«Î¹~¿ÿÈúÖ[oLÒßÿş÷Ó4uÓw¿ûİ,ËŞ|óÍï|ç;×¯_wÿÒ¤”ÚØØ˜¤­µÒÎ¹†˜1F /½ôÀd_ˆ}dmµZóóó“ôW¿úÕ7n|¼^}õÕ×^{íå—_Bœ?şSîïOE“¥ïÇ}Ô@gÏ}óÍ7ƒ ìîîöûı©©©GÖ	åh¢ÑhT*•şÁ	.^¼xıúõ—_~ùŸ¼êÿ<B_¾|y‚x¤ßrÒ¯¾úêÆÆÆë¯¿~ttôÅ/~ñã¦^xá‡?ü¡1¦×ëİ¸q#Š¢p‚ÕÕÕÛ·o×ëõOé>UB^ıõÍÍÍç{îÛßşö#‚3 ü#Óüp8Œãøÿ-%I’ë×¯—Ëå J¥RµZı¸uRÎÇ‹ş$çÜ½{÷Ö×× MÓN§³¸¸81}¶ú}¶ú}äF£ÑåË—Ÿ|òÉV«%¥l·Û_øÂœs”Ò¢(&Üï >j (ŠJ¥ÒÂÂÂöööİ»w÷öö”RßúÖ·^yå•+W®|ó›ßœ¼ÊàwM¿5¥!¢¢V«I)Ïœ9£”úÆ7¾±¶¶µöw³>sÒŸ Ïœô'è³ú}äƒ´Ö“áF¹|ùò¥K—cZë	ÈZK‘RîììL\ç<còá›¯ÆÌÌÌ$›sÎC™Ğ¯cÄÓöööòò²”R)e­õ<ïáÃ‡ÃáğÜ¹sN'c)eçŒ±v»]©T:N†Aóˆ®%?½¶PJM®nfffrğïM^ğÿİ    IEND®B`‚
+------MultipartBoundary--oqpQGw4YJ1ZVpV3d47ca0KoKpB4XhAFRC9rKPJjRuo------

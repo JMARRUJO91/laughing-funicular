@@ -1,0 +1,578 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670
+Subject: c96435eda841bfcf34657919f39b97ed9ad7e670 - angle/angle - Git at Google
+Date: Sat, 11 May 2024 22:10:07 -0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----"
+
+
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/html
+Content-ID: <frame-9CE9E7932DF0F588EF1017ABCDCE790F@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>c96435eda841bfcf34657919f39b97ed9ad7e670 - angle/angle - Git at Google</title><link rel="stylesheet" type="text/css" href="https://chromium.googlesource.com/+static/base.css"><link rel="stylesheet" type="text/css" href="https://chromium.googlesource.com/+static/doc.css"><link rel="stylesheet" type="text/css" href="https://chromium.googlesource.com/+static/prettify/prettify.css"><!-- default customHeadTagPart --></head><body class="Site"><header class="Site-header"><div class="Header"><a class="Header-image" href="https://chromium.googlesource.com/"><img src="https://www.gstatic.com/images/branding/lockups/2x/lockup_git_color_108x24dp.png" width="108" height="24" alt="Google Git"></a><div class="Header-menu"> <a class="Header-menuItem" href="https://accounts.google.com/AccountChooser?faa=1&amp;service=gerritcodereview&amp;continue=https://chromium.googlesource.com/login/angle/angle/%2B/c96435eda841bfcf34657919f39b97ed9ad7e670">Switch user</a> <a class="Header-menuItem" href="https://chromium.googlesource.com/+logout?continue=/angle/angle/%2B/c96435eda841bfcf34657919f39b97ed9ad7e670">Sign out</a> <span class="Header-menuItem Header-menuItem--noAction">â€ªJazmyne Josephine Marrujoâ€¬ &lt;marrujojazmyne@gmail.com&gt;</span> </div></div></header><div class="Site-content"><div class="Container "><div class="Breadcrumbs"><a class="Breadcrumbs-crumb" href="https://chromium.googlesource.com/?format=HTML">chromium</a> / <a class="Breadcrumbs-crumb" href="https://chromium.googlesource.com/angle/">angle</a> / <a class="Breadcrumbs-crumb" href="https://chromium.googlesource.com/angle/angle/">angle</a> / <span class="Breadcrumbs-crumb">c96435eda841bfcf34657919f39b97ed9ad7e670</span></div><div class="u-monospace Metadata"><table><tbody><tr><th class="Metadata-title">commit</th><td>c96435eda841bfcf34657919f39b97ed9ad7e670</td><td><span>[<a href="https://chromium.googlesource.com/angle/angle/+log/c96435eda841bfcf34657919f39b97ed9ad7e670">log</a>]</span> <span>[<a href="https://chromium.googlesource.com/angle/angle/+archive/c96435eda841bfcf34657919f39b97ed9ad7e670.tar.gz">tgz</a>]</span></td></tr><tr><th class="Metadata-title">author</th><td>Geoff Lang &lt;geofflang@chromium.org&gt;</td><td>Fri May 10 20:06:19 2024</td></tr><tr><th class="Metadata-title">committer</th><td>Angle LUCI CQ &lt;angle-scoped@luci-project-accounts.iam.gserviceaccount.com&gt;</td><td>Sat May 11 14:08:00 2024</td></tr><tr><th class="Metadata-title">tree</th><td><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/">c183af9dcb91f78d75d737d7a7bddb7762668f8d</a></td></tr><tr><th class="Metadata-title">parent</th><td><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E">d1bb6ed8399dd12e79484f30f9e9ded95c25625a</a> <span>[<a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E%21/">diff</a>]</span></td></tr></tbody></table></div><pre class="u-pre u-monospace MetadataMessage">Use Chromium's abseil build files with Dawn.
+
+Roll Dawn and set build_with_angle so that it uses chromium's abseil
+buildfiles when building in an ANGLE checkout.
+
+Bug: angleproject:8555
+Change-Id: <a href="https://chromium-review.googlesource.com/#/q/I8fc40fdefad734ef62bce374aa948367a42c03c6">I8fc40fdefad734ef62bce374aa948367a42c03c6</a>
+Reviewed-on: <a href="https://chromium-review.googlesource.com/c/angle/angle/+/5531113">https://chromium-review.googlesource.com/c/angle/angle/+/5531113</a>
+Auto-Submit: Geoff Lang &lt;geofflang@chromium.org&gt;
+Reviewed-by: Yuly Novikov &lt;ynovikov@chromium.org&gt;
+Commit-Queue: Yuly Novikov &lt;ynovikov@chromium.org&gt;
+</pre><ul class="DiffTree"><li><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/BUILD.gn">BUILD.gn</a><span class="DiffTree-action DiffTree-action--modify">[<a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E%21/#F0">diff</a>]</span></li><li><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/DEPS">DEPS</a><span class="DiffTree-action DiffTree-action--modify">[<a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E%21/#F1">diff</a>]</span></li><li><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/build_overrides/dawn.gni">build_overrides/dawn.gni</a><span class="DiffTree-action DiffTree-action--modify">[<a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E%21/#F2">diff</a>]</span></li><li><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/third_party/dawn">third_party/dawn</a><span class="DiffTree-action DiffTree-action--modify">[<a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670%5E%21/#F3">diff</a>]</span></li></ul><div class="DiffSummary">4 files changed</div><div class="TreeDetail"><div class="u-sha1 u-monospace TreeDetail-sha1">tree: c183af9dcb91f78d75d737d7a7bddb7762668f8d</div><ol class="FileList"><li class="FileList-item FileList-item--gitTree" title="Tree - android/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/android/">android/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - build_overrides/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/build_overrides/">build_overrides/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - doc/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/">doc/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - extensions/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/extensions/">extensions/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - gni/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/gni/">gni/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - include/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/include/">include/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - infra/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/infra/">infra/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - samples/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/samples/">samples/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - scripts/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/scripts/">scripts/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - src/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/src/">src/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - third_party/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/third_party/">third_party/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - tools/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/tools/">tools/</a></li><li class="FileList-item FileList-item--gitTree" title="Tree - util/"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/util/">util/</a></li><li class="FileList-item gitlink" title="Git submodule link - build"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/build">build</a></li><li class="FileList-item gitlink" title="Git submodule link - buildtools"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/buildtools">buildtools</a></li><li class="FileList-item gitlink" title="Git submodule link - testing"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/testing">testing</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .clang-format"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.clang-format">.clang-format</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .gitattributes"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.gitattributes">.gitattributes</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .gitignore"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.gitignore">.gitignore</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .gitmodules"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.gitmodules">.gitmodules</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .gn"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.gn">.gn</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .style.yapf"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.style.yapf">.style.yapf</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .vpython"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.vpython">.vpython</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .vpython3"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.vpython3">.vpython3</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - .yapfignore"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/.yapfignore">.yapfignore</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - additional_readme_paths.json"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/additional_readme_paths.json">additional_readme_paths.json</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - Android.mk"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/Android.mk">Android.mk</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - AUTHORS"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/AUTHORS">AUTHORS</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - BUILD.gn"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/BUILD.gn">BUILD.gn</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - codereview.settings"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/codereview.settings">codereview.settings</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - CONTRIBUTORS"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/CONTRIBUTORS">CONTRIBUTORS</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - DEPS"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/DEPS">DEPS</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - DIR_METADATA"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/DIR_METADATA">DIR_METADATA</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - dotfile_settings.gni"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/dotfile_settings.gni">dotfile_settings.gni</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - LICENSE"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/LICENSE">LICENSE</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - OWNERS"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/OWNERS">OWNERS</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - PRESUBMIT.py"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/PRESUBMIT.py">PRESUBMIT.py</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - README.chromium"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/README.chromium">README.chromium</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - README.md"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/README.md">README.md</a></li><li class="FileList-item FileList-item--regularFile" title="Regular file - WATCHLISTS"><a class="FileList-itemLink" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/WATCHLISTS">WATCHLISTS</a></li></ol><div class="InlineReadme"><div class="InlineReadme-path">README.md</div><div class="doc"><h1><a class="h" name="ANGLE-Almost-Native-Graphics-Layer-Engine" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#ANGLE-Almost-Native-Graphics-Layer-Engine"><span></span></a><a class="h" name="angle-almost-native-graphics-layer-engine" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#angle-almost-native-graphics-layer-engine"><span></span></a>ANGLE - Almost Native Graphics Layer Engine</h1><p>The goal of ANGLE is to allow users of multiple operating systems to seamlessly run WebGL and other OpenGL ES content by translating OpenGL ES API calls to one of the hardware-supported APIs available for that platform. ANGLE currently provides translation from OpenGL ES 2.0, 3.0 and 3.1 to Vulkan, desktop OpenGL, OpenGL ES, Direct3D 9, and Direct3D 11. Future plans include ES 3.2, translation to Metal and MacOS, Chrome OS, and Fuchsia support.</p><h3><a class="h" name="Level-of-OpenGL-ES-support-via-backing-renderers" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#Level-of-OpenGL-ES-support-via-backing-renderers"><span></span></a><a class="h" name="level-of-opengl-es-support-via-backing-renderers" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#level-of-opengl-es-support-via-backing-renderers"><span></span></a>Level of OpenGL ES support via backing renderers</h3><table><thead><tr><th></th><th align="center">Direct3D 9</th><th align="center">Direct3D 11</th><th align="center">Desktop GL</th><th align="center">GL ES</th><th align="center">Vulkan</th><th align="center">Metal</th></tr></thead><tbody><tr><td>OpenGL ES 2.0</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td></tr><tr><td>OpenGL ES 3.0</td><td align="center"></td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td></tr><tr><td>OpenGL ES 3.1</td><td align="center"></td><td align="center"><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/ES31StatusOnD3D11.md">incomplete</a></td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center"></td></tr><tr><td>OpenGL ES 3.2</td><td align="center"></td><td align="center"></td><td align="center">in progress</td><td align="center">in progress</td><td align="center">complete</td><td align="center"></td></tr></tbody></table><p>Additionally, OpenGL ES 1.1 is implemented in the front-end using OpenGL ES 3.0 features.  This version of the specification is thus supported on all platforms specified above that support OpenGL ES 3.0 with <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/ES1Status.md">known issues</a>.</p><h3><a class="h" name="Platform-support-via-backing-renderers" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#Platform-support-via-backing-renderers"><span></span></a><a class="h" name="platform-support-via-backing-renderers" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#platform-support-via-backing-renderers"><span></span></a>Platform support via backing renderers</h3><table><thead><tr><th align="right"></th><th align="center">Direct3D 9</th><th align="center">Direct3D 11</th><th align="center">Desktop GL</th><th align="center">GL ES</th><th align="center">Vulkan</th><th align="center">Metal</th></tr></thead><tbody><tr><td align="right">Windows</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center">complete</td><td align="center"></td></tr><tr><td align="right">Linux</td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center"></td><td align="center">complete</td><td align="center"></td></tr><tr><td align="right">Mac OS X</td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center"></td><td align="center"></td><td align="center">complete [1]</td></tr><tr><td align="right">iOS</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">complete [2]</td></tr><tr><td align="right">Chrome OS</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center">planned</td><td align="center"></td></tr><tr><td align="right">Android</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center">complete</td><td align="center"></td></tr><tr><td align="right">GGP (Stadia)</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center"></td></tr><tr><td align="right">Fuchsia</td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">complete</td><td align="center"></td></tr></tbody></table><p>[1] Metal is supported on macOS 10.14+</p><p>[2] Metal is supported on iOS 12+</p><p>ANGLE v1.0.772 was certified compliant by passing the OpenGL ES 2.0.3 conformance tests in October 2011.</p><p>ANGLE has received the following certifications with the Vulkan backend:</p><ul><li>OpenGL ES 2.0: ANGLE 2.1.0.d46e2fb1e341 (Nov, 2019)</li><li>OpenGL ES 3.0: ANGLE 2.1.0.f18ff947360d (Feb, 2020)</li><li>OpenGL ES 3.1: ANGLE 2.1.0.f5dace0f1e57 (Jul, 2020)</li><li>OpenGL ES 3.2: ANGLE 2.1.2.21688.59f158c1695f (Sept, 2023)</li></ul><p>ANGLE also provides an implementation of the EGL 1.5 specification.</p><p>ANGLE is used as the default WebGL backend for both Google Chrome and Mozilla Firefox on Windows platforms. Chrome uses ANGLE for all graphics rendering on Windows, including the accelerated Canvas2D implementation and the Native Client sandbox environment.</p><p>Portions of the ANGLE shader compiler are used as a shader validator and translator by WebGL implementations across multiple platforms. It is used on Mac OS X, Linux, and in mobile variants of the browsers. Having one shader validator helps to ensure that a consistent set of GLSL ES shaders are accepted across browsers and platforms. The shader translator can be used to translate shaders to other shading languages, and to optionally apply shader modifications to work around bugs or quirks in the native graphics drivers. The translator targets Desktop GLSL, Vulkan GLSL, Direct3D HLSL, and even ESSL for native GLES2 platforms.</p><h2><a class="h" name="Sources" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#Sources"><span></span></a><a class="h" name="sources" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#sources"><span></span></a>Sources</h2><p>ANGLE repository is hosted by Chromium project and can be <a href="https://chromium.googlesource.com/angle/angle">browsed online</a> or cloned with</p><pre class="code">git clone https://chromium.googlesource.com/angle/angle
+</pre><h2><a class="h" name="Building" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#Building"><span></span></a><a class="h" name="building" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#building"><span></span></a>Building</h2><p>View the <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/DevSetup.md">Dev setup instructions</a>.</p><h2><a class="h" name="Contributing" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#Contributing"><span></span></a><a class="h" name="contributing" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670#contributing"><span></span></a>Contributing</h2><ul><li><p>Join our <a href="https://groups.google.com/group/angleproject">Google group</a> to keep up to date.</p></li><li><p>Join us on <a href="https://chromium.slack.com/">Slack</a> in the #angle channel. You can follow the instructions on the <a href="https://www.chromium.org/developers/slack">Chromium developer page</a> for the steps to join the Slack channel. For Googlers, please follow the instructions on this <a href="https://docs.google.com/document/d/1wWmRm-heDDBIkNJnureDiRO7kqcRouY2lSXlO6N2z6M/edit?usp=sharing">document</a> to use your google or chromium email to join the Slack channel.</p></li><li><p><a href="http://anglebug.com/new">File bugs</a> in the <a href="https://bugs.chromium.org/p/angleproject/issues/list">issue tracker</a> (preferably with an isolated test-case).</p></li><li><p><a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/ChoosingANGLEBranch.md">Choose an ANGLE branch</a> to track in your own project.</p></li><li><p>Read ANGLE development <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc">documentation</a>.</p></li><li><p>Look at <a href="https://chromium-review.googlesource.com/q/project:angle/angle+status:open">pending</a> and <a href="https://chromium-review.googlesource.com/q/project:angle/angle+status:merged">merged</a> changes.</p></li><li><p>Become a <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/ContributingCode.md">code contributor</a>.</p></li><li><p>Use ANGLE's <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/CodingStandard.md">coding standard</a>.</p></li><li><p>Learn how to <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/BuildingAngleForChromiumDevelopment.md">build ANGLE for Chromium development</a>.</p></li><li><p>Get help on <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/DebuggingTips.md">debugging ANGLE</a>.</p></li><li><p>Go through <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/Orientation.md">ANGLE's orientation</a> and sift through <a href="https://bugs.chromium.org/p/angleproject/issues/list?q=Hotlist%3DStarterBug">starter projects</a>. If you decide to take on any task, write a comment so you can get in touch with us, and more importantly, set yourself as the â€œownerâ€ of the bug. This avoids having multiple people accidentally working on the same issue.</p></li><li><p>Read about WebGL on the <a href="http://khronos.org/webgl/wiki/Main_Page">Khronos WebGL Wiki</a>.</p></li><li><p>Learn about the initial ANGLE implementation details in the <a href="http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-ANGLE.pdf">OpenGL Insights chapter on ANGLE</a> (this is not the most up-to-date ANGLE implementation details, it is listed here for historical reference only) and this <a href="https://drive.google.com/file/d/0Bw29oYeC09QbbHoxNE5EUFh0RGs/view?usp=sharing&amp;resourcekey=0-CNvGnQGgFSvbXgX--Y_Iyg">ANGLE presentation</a>.</p></li><li><p>Learn about the past, present, and future of the ANGLE implementation in <a href="https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub?start=false&amp;loop=false">this presentation</a>.</p></li><li><p>Watch a <a href="https://youtu.be/QrIKdjmpmaA">short presentation</a> on the Vulkan back-end.</p></li><li><p>Track the <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/dEQP-Charts.md">dEQP test conformance</a></p></li><li><p>Read design docs on the <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/src/libANGLE/renderer/vulkan/README.md">Vulkan back-end</a></p></li><li><p>Read about ANGLE's <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/infra/README.md">testing infrastructure</a></p></li><li><p>View information on ANGLE's <a href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670/doc/ExtensionSupport.md">supported extensions</a></p></li><li><p>If you use ANGLE in your own project, we'd love to hear about it!</p></li></ul></div></div></div></div> <!-- Container --></div> <!-- Site-content --><footer class="Site-footer"><div class="Footer"><span class="Footer-poweredBy">Powered by <a href="https://gerrit.googlesource.com/gitiles/">Gitiles</a>| <a href="https://policies.google.com/privacy">Privacy</a>| <a href="https://policies.google.com/terms">Terms</a></span><span class="Footer-formats"><a class="u-monospace Footer-formatsItem" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670?format=TEXT">txt</a> <a class="u-monospace Footer-formatsItem" href="https://chromium.googlesource.com/angle/angle/+/c96435eda841bfcf34657919f39b97ed9ad7e670?format=JSON">json</a></span></div></footer></body></html>
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium.googlesource.com/+static/base.css
+
+@charset "utf-8";
+
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,cyrillic-ext,greek-ext,cyrillic,greek,vietnamese,latin-ext");
+
+@import url("//fonts.googleapis.com/css?family=Source+Code+Pro");
+
+*, ::after, ::before { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0.25em 0px 0.5em; }
+
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.5em; }
+
+h3 { font-size: 1.3em; }
+
+h4, h5, h6 { font-size: 14px; font-style: italic; }
+
+ul, ol { list-style: none; }
+
+.u-sha1 { background-color: rgb(241, 242, 243); color: rgb(0, 0, 0); font-size: 13px; }
+
+.u-pre { font-size: 10pt; white-space: pre; }
+
+.u-lineNum { border-right: 1px solid rgb(241, 242, 243); color: rgb(102, 102, 102); display: inline-block; min-width: 3em; text-align: right; }
+
+.u-noSelect { user-select: none; }
+
+.u-monospace { font-family: "Source Code Pro", monospace; }
+
+.Site { background: rgb(255, 255, 255); color: rgb(0, 0, 0); display: flex; font: 14px / 1.54 "Open Sans", sans-serif; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
+
+.Site-header, .Site-footer { background: rgb(238, 238, 238); -webkit-box-flex: 0; flex: 0 0 auto; }
+
+.Site-header--withNavbar { background: rgb(255, 255, 255); }
+
+.Site-content { -webkit-box-flex: 1; flex: 1 0 auto; padding: 20px; }
+
+.Container { margin: 0px auto; max-width: 980px; }
+
+.Container--fullWidth { max-width: none; }
+
+.Header, .Footer { -webkit-box-align: center; align-items: center; display: flex; padding: 20px; }
+
+.Site-header--withNavbar .Header { max-width: 1020px; margin: 0px auto; padding: 10px 20px; }
+
+.Header-title, .Header-image { display: flex; -webkit-box-flex: 1; flex: 1 1 0%; }
+
+.Header-anchor { color: rgb(102, 102, 102); font-size: 32px; font-weight: 300; text-decoration: none; }
+
+.Header-anchorLogo { display: inline-block; margin-right: 10px; vertical-align: middle; }
+
+.Header-nav { background: rgb(238, 238, 238); padding: 15px 0px; }
+
+.Header-menu { display: flex; -webkit-box-pack: end; justify-content: flex-end; }
+
+.Header-menuItem { color: rgb(0, 0, 238); display: inline-block; margin-left: 15px; }
+
+.Header-menuItem--noAction { color: inherit; }
+
+.Breadcrumbs { font-size: 18px; margin-bottom: 20px; }
+
+.Breadcrumbs-crumb { color: rgb(0, 0, 238); }
+
+.Breadcrumbs-crumb:last-child { color: rgb(0, 0, 0); font-weight: bold; }
+
+.Footer { color: rgb(102, 102, 102); }
+
+.Footer-poweredBy { -webkit-box-flex: 1; flex: 1 1 0%; }
+
+.Footer-formats, .Footer-links { display: flex; -webkit-box-pack: end; justify-content: flex-end; }
+
+.Footer-formatsItem { display: inline-block; }
+
+.Footer-formatsItem:first-child { margin-right: 20px; }
+
+.Footer-link { display: inline-block; margin-left: 10px; }
+
+.RepoList-item { display: flex; left: -10px; padding: 5px 0px 5px 10px; position: relative; white-space: nowrap; width: calc(100% + 20px); }
+
+.RepoList-item:link, .RepoList-item:visited { text-decoration: none; }
+
+.RepoList-item:hover { background: rgb(238, 238, 238); }
+
+.RepoList-item--header { font-weight: bold; margin: 0px; }
+
+.RepoList-item--header:hover { background: rgb(255, 255, 255); }
+
+.RepoList-itemName, .RepoList-itemDescription { display: inline-block; }
+
+.RepoList-itemName { margin-right: 10px; min-width: 25%; text-decoration: underline; }
+
+.RepoList-item--header > .RepoList-itemName { text-decoration: none; }
+
+.RepoList-itemDescription { color: rgb(0, 0, 0); -webkit-box-flex: 1; flex: 1 1 0%; overflow: hidden; text-overflow: ellipsis; }
+
+.RepoDescription { margin: 10px 0px; }
+
+.RepoMirroredFrom { margin: 10px 0px; color: rgb(102, 102, 102); }
+
+.CloneRepo { background: rgb(238, 238, 238); margin-bottom: 20px; padding: 10px; }
+
+.CloneRepo-title { margin-bottom: 2px; }
+
+.CloneRepo-command { border: 1px solid rgb(204, 204, 204); border-radius: 4px; display: block; font-size: inherit; padding: 10px; width: 100%; }
+
+.RepoShortlog { display: flex; }
+
+.RepoShortlog-refs { width: 20%; -webkit-box-flex: 0 !important; flex: 0 0 auto !important; }
+
+.RepoShortlog-refs > .RefList:first-child { margin: 0px; }
+
+.RepoShortlog-log { -webkit-box-flex: 1; flex: 1 1 0%; width: 80%; }
+
+.RepoIndexDoc { border-top: 1px solid rgb(221, 221, 221); margin-top: 20px; padding-top: 5px; }
+
+.EmptyRepo-description { font-size: 14px; font-style: italic; }
+
+@media (max-width: 550px) {
+  .RepoShortlog { -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
+  .RepoShortlog-refs { width: auto; border-bottom: 1px solid rgb(221, 221, 221); margin-bottom: 20px; padding-bottom: 20px; }
+  .RepoShortlog-refs > .RefList:last-child { margin-bottom: 0px; }
+  .RepoShortlog-log { width: auto; }
+}
+
+.RefList { margin: 15px 0px; }
+
+.RefList-title { margin: 0px; }
+
+.RefList-items { overflow-wrap: break-word; }
+
+.RefList-item { padding: 2px 0px; }
+
+@media (max-width: 550px) {
+  .RefList--responsive .RefList-item { display: inline-block; margin-right: 6px; }
+}
+
+.LogNav { margin: 10px 0px; text-align: center; }
+
+.CommitLog-item { padding: 2px 0px; }
+
+.CommitLog-item--oneline:hover { background: rgb(238, 238, 238); }
+
+.CommitLog-item--full { margin-bottom: 20px; }
+
+.CommitLog-item--empty { padding: 10px 0px; text-align: center; }
+
+.CommitLog-sha1 { border-radius: 3px; display: inline-block; margin-right: 3px; padding: 2px 4px; text-align: center; }
+
+.CommitLog-time { color: rgb(102, 102, 102); }
+
+.CommitLog-branchLabel { color: rgb(221, 75, 57); }
+
+.CommitLog-tagLabel { color: rgb(0, 153, 51); }
+
+.CommitLog-rename { font-size: 0.9em; display: block; padding-left: 5px; }
+
+.Metadata { margin-bottom: 15px; }
+
+.Metadata-title { font-weight: bold; padding-right: 10px; text-align: right; }
+
+.MetadataMessage { background-color: rgb(250, 250, 250); border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); margin: 0px; padding: 12px; white-space: pre-wrap; }
+
+.DiffTree { margin: 10px 0px 5px; }
+
+.DiffTree-action { margin-left: 0.5em; }
+
+.DiffTree-action--add { color: rgb(0, 102, 0); }
+
+.DiffTree-action--delete { color: rgb(102, 0, 0); }
+
+.DiffTree-action--rename, .DiffTree-action--copy { color: rgb(0, 0, 102); }
+
+.TreeDetail-sha1, .BlobSha1 { margin: 10px 0px; padding: 5px 10px; }
+
+.FileList { margin-left: 25px; }
+
+.FileList-item { padding: 1px 0px; position: relative; }
+
+.FileList-item:hover { background: rgb(238, 238, 238); }
+
+.FileList-item::before { left: -22px; position: absolute; top: 4px; }
+
+.FileList-itemLink { display: block; }
+
+.FileList-item--gitTree::before { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAAb5JREFUOMulkr1KA0EQgGdvTwwnYmER0gQsrFKmSy+pLESw9Qm0F/ICNnba+h6iEOuAEWslKJKTOyJJvIT72d1xZuOFC0giOLA77O7Mt/PnNptN+I+49Xr9GhH3f3mb0v1ht9vtLAUYYw5ItkgDL3KyD8PhcLvdbl/WarXT3DjLMnAcR/f7/YfxeKwtgC5RKQVhGILWeg4hQ6hUKjWyucmhLFEUuWR3QYBWAZABQ9i5CCmXy16pVALP80BKaaG+70MQBLvzFMjRKKXh8j6FSYKF7ITdEWLa4/ktokN74wiqjSMpnVcbQZqmEJHz+ckeCPFjWKwULpyspAqhdXVXdcnZcPjsIgn+2BsVA8jVYuWlgJ3yBj0icgq2uoK+lg4t+ZvLomSKamSQ4AI5BcMADtMhyNoSgNIISUaFNtwlazcDcBc4gjjVwCWid2usCWroYEhnaqbzFJLUzAHIXRDChXCcQP8zhkSZ5eNLgHAUzwDcRu4CoIRn/wsGUQIIy4Vr9TH6SYFCNzw4nALn5627K4vIttOUOwfa5YnrDYzt/9OLv9I5l8kk5hZ3XLO20b7tbR7zHLy/BX8G0IeBEM7ZN1NGIaFUaKLgAAAAAElFTkSuQmCC"); }
+
+.FileList-item--symlink::before { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABZUlEQVQ4y2NgIAL4zWL7D8TGDOQCqAEg7Ey2Aes+58AMcSSkmB2I3YB4HhCfh9kOMoCgIUAJMyDe2D+b58jKe553133M+r/uU/b/zV+L/y97n/i/+JIYbkOAAl5AfGLNTde/69+n/1/4MuD/gtsqKBhkALIh5S0M1jDN2kC8a+UNt/8b36f+X3JP5f/0u1pwjeuvS8E1g3DpZQm4ITAD5s09ZPBq49uE/0vvq4E1gPCJC5z/yy+IoGgG4a5HJqjeCJ3Pc2vjy+T/ux4Y/j99Rfz/7GtK/xfeUkbBN+8pY9cMAkFzuT5uepPy/+w1lf+TF3L/Q4p3OD5zRQ67Zlg873vk9n/mMlaQ5EcgLgZiA2R5nJphCjbfNP8LVeCBJyUa40xpO+5afQXS/8jKC0DJg+uPKx+bOJf1HDYXEJPW46JW8LcduKYzbdZMph4gn4ccQxSAOAuIo4FYdvsKFpYdK1iYCekDACq5JXDHGJhDAAAAAElFTkSuQmCC"); }
+
+.FileList-item--regularFile::before { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVQ4ja2TSw7CIBRFu0r3wyIYsAMHDl1CC92IDqC0wAbQi4Fo5VOMJGcAyT33vQEDY+xCCPGdnIZ48NB7kPkSLMvipZQBpVQC70Br7Y0xZQGC4zj6aZoCnPMPhBBtwb41NoN1XesCBHPNhyfI7fziFu6HJti3IgS0vrcFuZ3Btm2JpmC/M5jnOdEU5JoRstYmigKES80x7JyrC+IE7+1xAoSrgp//AqX02vsbn5nz8K/zAP9CzjbgFoHjAAAAAElFTkSuQmCC"); }
+
+.FileList-item--executableFile::before { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA7ADsAOwdIxY2AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVQ4T5WTTYqDQBBGPdKcZnIJdy7EVRByBQPi0iwHAlGT0YBHcG82kkV2VnffoKar7FYzIQYLPtqffq+rEJ04jn/CMMSV+XZs0YO1RcyLoO/7MdAD9gAI8wiK+CyYA0IDFABhrmFBAHNYbwYTIxFyWN8KwAiEmIEaknqVUposCoBBGE8cIGUipUKp5IJAzOe2JxI0pG1b3Gw2+Hg8FjoQzy0rLVAavt0GuGkaXrfb7avAzs0CNcHtDD4ejwzTve/7X/9GGFqn2QmkDmzbBJ9OJ8yyDNM0Rdd1J8mzgDqQPDNJLFwUBZ7PZ7xcLizwPI9gfj+NYAX2k+kx7vc7byrLEquqwuv1ivv9HpMk4ec6Uwfvqus63lzXNeZ5zoIRpoqiKP/09wVBwNDhcOB1t9v9OmuLTnw62dQfVIHPYx/I/0kAAAAASUVORK5CYII="); }
+
+.FileList-item--gitlink::before { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAABO0lEQVQ4T7WT3U6EMBCF92m99yGMZuODGL01eueyXqjvwc+WUlooUPkfZxq3sQEvJLHJSQvlfDOnDbub/dUFCrZof3t9uaPF1kFeBwjD8E+apukfAVEUQRzHkCQJJKfEznES43tUGP0OIOMheIGn50e4f7izCo4H4GkKDEXPBIviCIZh8AFkfv94g5Qx4Jw7AOn4Grh1iqATdrUAEJmxFLIsgzzPQSnpQc4SIkMIh7ZtfQCjys6soNQlVFW1AEgpQWQCjDE+gHIKIaxZo7mu69UOiqJwRXxAxnFDQllS5XUzSeO+kmoJoOzUni41NE1tM9JBTdMII85d14FpjI2lihUA9wCNA8zzDOM4WkBjvgFqrQO8ulzmNgLl/8SPyTT0WL3vLLBGsNZ6HUBV1tT3vROd/Fk/AZt/Z/J+AUN8ayghXmezAAAAAElFTkSuQmCC"); }
+
+.FileContents { border-collapse: collapse; border-spacing: 0px; margin: 10px 0px; }
+
+.FileContents-line { border: none; }
+
+.FileContents-lineNum { padding-right: 10px; width: 1%; }
+
+.FileContents-lineNum::before { color: rgb(170, 170, 170); content: attr(data-line-number); cursor: pointer; }
+
+.FileContents-lineContents { line-height: 1.3em; min-height: 1em; padding-left: 10px; }
+
+.FileContents-lineContents:target { background: rgb(207, 216, 220); }
+
+.InlineReadme { border-top: 1px solid rgb(221, 221, 221); margin: 10px 0px; padding: 7px 0px; }
+
+.InlineReadme-path { color: rgb(102, 102, 102); }
+
+.Blame { border-collapse: collapse; font-size: 8pt; margin: 0px auto; }
+
+.Blame-region--bg1 { background: rgb(255, 255, 255); }
+
+.Blame-region--bg2 { background: rgb(241, 242, 243); }
+
+.Blame-sha1, .Blame-author, .Blame-time, .Blame-regionLink { font-size: 8pt; padding: 0px 3px; white-space: nowrap; }
+
+.Blame-regionLink { text-align: right; }
+
+.Blame-lineNum .u-lineNum { padding: 0px 8px; text-align: right; }
+
+.Blame-lineNum:hover { text-decoration: underline; }
+
+.Blame-lineContent { font-size: 9pt; line-height: 1.3em; padding: 0px 8px; }
+
+.Diff { margin: 10px 0px; }
+
+.Diff-fileIndex { color: rgb(68, 68, 68); font-weight: bold; }
+
+.Diff-unified { border-bottom: 1px solid rgb(221, 221, 221); border-top: 1px solid rgb(221, 221, 221); padding: 10px 0px; }
+
+.Diff-hunk { color: rgb(0, 0, 204); }
+
+.Diff-delete { color: rgb(204, 0, 0); }
+
+.Diff-insert { color: rgb(0, 136, 0); }
+
+sentinel { }
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin,cyrillic-ext,greek-ext,cyrillic,greek,vietnamese,latin-ext
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css?family=Source+Code+Pro
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMRrTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtM1rTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMVrTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMprTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMZrTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMdrTFcfZJmmpw.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Code Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrTFcfZJk.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium.googlesource.com/+static/doc.css
+
+@charset "utf-8";
+
+.Site-Content--markdown { padding-top: 0px; }
+
+.Header-nav ul { max-width: 1020px; margin: 0px auto; padding: 0px 20px; }
+
+.Header-nav li { display: inline-block; margin-right: 15px; }
+
+.doc h1, .doc h2, .doc h3, .doc h4, .doc h5, .doc h6 { font-weight: normal; margin: 1.236em 0px 0.618em; }
+
+.doc.RepoIndexDoc h1 { margin-top: 0.25em; }
+
+.doc h1 { font-size: 2em; }
+
+.doc h2 { font-size: 1.5em; }
+
+.doc h3 { font-size: 1.3em; }
+
+.doc h4 { font-size: 1.3em; font-weight: lighter; font-style: italic; }
+
+.doc h5 { font-size: 16px; font-weight: lighter; font-style: italic; }
+
+.doc h6 { font-size: 14px; font-style: italic; }
+
+.doc hr { border-right: none; border-bottom: none; border-left: none; border-image: initial; border-top: 1px solid rgb(170, 170, 170); display: block; margin-top: 25px; }
+
+.doc a { text-decoration: none; }
+
+.doc a:link { color: rgb(36, 93, 193); }
+
+.doc a:visited { color: rgb(119, 89, 174); }
+
+.doc a:hover { text-decoration: underline; }
+
+.doc a.h { display: inline-block; font-weight: normal; width: 1.5em; margin-left: -1.5em; margin-top: -1em; margin-bottom: -1em; }
+
+.doc a.h:link, .doc a.h:visited { color: rgb(68, 68, 68); }
+
+.doc a.h:focus { outline: none; }
+
+.doc a.h:hover { text-decoration: none; }
+
+.doc a.h span { display: inline-block; width: 1.5em; }
+
+.doc h1:hover a.h span::before, .doc h2:hover a.h span::before, .doc h3:hover a.h span::before, .doc h4:hover a.h span::before, .doc h5:hover a.h span::before, .doc h6:hover a.h span::before { content: "#"; font-weight: normal; color: rgb(170, 170, 170); }
+
+.doc h1:hover a:hover.h span::before, .doc h2:hover a:hover.h span::before, .doc h3:hover a:hover.h span::before, .doc h4:hover a:hover.h span::before, .doc h5:hover a:hover.h span::before, .doc h6:hover a:hover.h span::before { text-decoration: underline; }
+
+.doc h1:hover a:visited.h span::before, .doc h2:hover a:visited.h span::before, .doc h3:hover a:visited.h span::before, .doc h4:hover a:visited.h span::before, .doc h5:hover a:visited.h span::before, .doc h6:hover a:visited.h span::before { color: rgb(170, 170, 170); }
+
+.doc ul, .doc ol { margin: 10px 10px 10px 30px; padding: 0px; }
+
+.doc ul { list-style-type: disc; }
+
+.doc ol { list-style-type: decimal; }
+
+.doc img { border: 0px; max-width: 100%; }
+
+.doc iframe { min-width: 100px; min-height: 30px; }
+
+iframe.noborder { border: 0px; }
+
+.doc em { font-weight: normal; font-style: italic; }
+
+.doc strong { font-weight: bold; color: inherit; }
+
+.doc p { margin: 10px 0px; }
+
+.doc blockquote { background-color: rgb(255, 253, 231); border-left: 2px solid rgb(250, 183, 0); padding: 2px 10px; }
+
+.doc pre { padding: 12px; font-size: 10pt; background-color: rgb(250, 250, 250); border: 1px solid rgb(204, 204, 204); overflow-x: auto; }
+
+.doc code { padding: 2px 4px; background-color: rgb(245, 245, 245); border: transparent; border-radius: 4px; }
+
+.doc .code { font-family: "Source Code Pro", monospace; }
+
+.doc dl dt { margin-top: 1em; }
+
+.doc table { border-collapse: collapse; border-spacing: 0px; }
+
+.doc th { text-align: center; }
+
+.doc th, .doc td { border: 1px solid rgb(238, 238, 238); padding: 4px 12px; vertical-align: top; }
+
+.doc th { background-color: rgb(245, 245, 245); }
+
+.toc { margin-top: 30px; }
+
+.toc-aux { background: rgb(249, 249, 249); border: 1px solid rgb(242, 242, 242); }
+
+.toc h2 { margin: 0px 0px 5px; }
+
+.toc ul { margin: 10px 10px 10px 30px; }
+
+.toc ul li { margin-left: 0px; list-style: disc; }
+
+.toc ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+.toc ul ul li { list-style: circle; }
+
+.note, .promo, .aside { border: 1px solid; border-radius: 4px; margin: 10px 0px; padding: 10px; }
+
+.note { background: rgb(255, 251, 228); border-color: rgb(248, 246, 230); }
+
+.promo { background: rgb(246, 249, 255); border-color: rgb(239, 242, 249); }
+
+.aside { background: rgb(249, 249, 249); border-color: rgb(242, 242, 242); }
+
+.note :first-child, .promo :first-child, .aside :first-child { margin-top: 0px; }
+
+.note p:last-child, .promo p:last-child, .aside p:last-child { margin-bottom: 0px; }
+
+.cols { margin: 0px -1.533%; width: 103.067%; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { display: inline-block; margin: 0px 1.488% 20px; vertical-align: top; }
+
+.cols h1, .cols h2, .cols h3, .cols h4, .cols h5, .cols h6 { margin: 0.67em 0px; }
+
+.col-1 { width: 5.357%; }
+
+.col-2 { width: 13.69%; }
+
+.col-3 { width: 22.024%; }
+
+.col-4 { width: 30.357%; }
+
+.col-5 { width: 38.69%; }
+
+.col-6 { width: 47.024%; }
+
+.col-7 { width: 55.357%; }
+
+.col-8 { width: 63.69%; }
+
+.col-9 { width: 72.024%; }
+
+.col-10 { width: 80.357%; }
+
+.col-11 { width: 88.69%; }
+
+.col-12 { width: 97.024%; }
+
+.cols hr { width: 80%; }
+
+sentinel { }
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://chromium.googlesource.com/+static/prettify/prettify.css
+
+@charset "utf-8";
+
+.str { color: rgb(0, 136, 0); }
+
+.kwd { color: rgb(0, 0, 136); }
+
+.com { color: rgb(136, 0, 0); }
+
+.typ { color: rgb(102, 0, 102); }
+
+.lit { color: rgb(0, 102, 102); }
+
+.pun, .opn, .clo { color: rgb(102, 102, 0); }
+
+.pln { color: rgb(0, 0, 0); }
+
+.tag { color: rgb(0, 0, 136); }
+
+.atn { color: rgb(102, 0, 102); }
+
+.atv { color: rgb(0, 136, 0); }
+
+.dec { color: rgb(102, 0, 102); }
+
+@media print {
+  .str { color: rgb(0, 102, 0); }
+  .kwd { color: rgb(0, 0, 102); font-weight: bold; }
+  .com { color: rgb(102, 0, 0); font-style: italic; }
+  .typ { color: rgb(68, 0, 68); font-weight: bold; }
+  .lit { color: rgb(0, 68, 68); }
+  .pun, .opn, .clo { color: rgb(68, 68, 0); }
+  .pln { color: rgb(0, 0, 0); }
+  .tag { color: rgb(0, 0, 102); font-weight: bold; }
+  .atn { color: rgb(68, 0, 68); }
+  .atv { color: rgb(0, 102, 0); }
+}
+
+pre.prettyprint { padding: 2px; border: 1px solid rgb(136, 136, 136); }
+
+ol.linenums { margin-top: 0px; margin-bottom: 0px; }
+
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 { list-style-type: none; }
+
+li.L1, li.L3, li.L5, li.L7, li.L9 { background: rgb(238, 238, 238); }
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://www.gstatic.com/images/branding/lockups/2x/lockup_git_color_108x24dp.png
+
+‰PNG
+
+   IHDR   Ø   0   s7´  IDATxíİtÇ‡ñ›8v¸ÌÌL©$—+K²Ó”™é13s@²}ÌŒefNò˜™±L±ì¢$‡c½ï¾£œ³µ®¤]íÆ–_wÎù8‰Të¿³sgf-Qk±µ¨Å¾VnïÎMçJNeK×võ•î-ı3->Ò•-ıßO÷¿ÆŸ½º{ñŠ] /G‘ˆ¯'û^Ø‹Ğ|C({WüY&[¼89¿<®Hìº³¾è¿öl2ş"^”üxi»T®ğİ®ŞÂzL ÿLõ•æBÂ‰_wvÙíğkÏ~2ş"_ÀèsAWoéEHhr¥/ÏûÜÈTH$°‰°(`óç—'¬Ï”­+[üy¦ïÅ-!‘@ş/F›„ıq!>§wãDl¿­g¢·âLÆØµso(·¥zKWÕH®ğT*WúlWnøôTö…=“óó³Î_îHÎ/l•éN0ò½9İ[¸/-ŒØ+<–ì_¹$˜ÈDmŞÇ§Å¸ÜgĞÒpFIbìøÊ&*…~
+™ş•{¤s…+F‡«'»rwHp‘‰0Ú¦xœ€úp<¼´7ï-Æ¦1*½ªN5ğk§Ì/Ï€ø¥Å­>¦zkè áˆLÄ€Ñv®s+˜Ã«pDÇàT¼‹áÎÁ$Ôkï;µZ—Ë±h¾é-•Âa+\ŒZï‚B°¢pE£íŠ,œQŞ‡:P¯mŠ5‚¹-êµí°ĞõØµšã²0à­añ6+\ø$Òš&RÀh[`—~ô ~Úfx“+\{ÂKÛÇWlÙè£t~¸®Â}ZQ„DZÒ„	m2Ş
+Ç¥û£Ù6—á
+ÖÂXá
+£Ò·*º¥ky)`ÇUÀÑÊ-xÀv†fSN_1:`©\ñ«HK›£µE“!ÿ÷Ëô•N±n“¹ÒaVR/“ó©Î¹ƒéÄ—Ò±ßfCƒ©Ä0¿Ì§¿æ÷_äÏ{ôuf­Y2åØµKÚ?­Y:å±Õ´é¯k—¶ÿ_³lÊÑfém·VVuW·á¿ÑuEî"–ë×ºß3Õ?ƒxĞTÀş×İ‰´ó™Ä¯R‰§Sñü@:ñÁLü†|:ñŠ§N‰Í€„Ö	Çå#hÇx´QÜ­Ó706İĞğöğÆÜëQ)—'AZÅ`ºóÜTìß„¨ÜÈ@&ñÏ|wü,ˆk—´²viÛ_Q¹^ûG^{"Ä®\édòÿŞh·K&7ÎÿÂé\ñ—Æß7]äJÅO£ÿÕ°¹há5€¬õ§®•æÃİ.ãOã€İ]½ \ºÒ
+?òÈéŒN×5–éÊG’ÉizFî‘©æ;fíå¤R.ÎëˆeÊV	âƒa¬|î¹mƒéø—ıö!#Üµåsè€4ƒ6ı£æ^³_>ë-ıµú[\ ñƒ+í×	ÄO›Å|b!ÄMoS2ñ7. Ÿ‰¿^ÈÊ?i«—¶/Ñ°4‹÷ßW/dºıŒpİ`ÿf €•E&åS±«šîÇtâ&ıg@ü¢íÇå—MÀtwEõ^ÃâÛ ~·2>qk0r=Š+¸Â~FåµÕyíó­+j§2÷º[»oñºÛ	Ò35ƒö@Û7!ÂõéÚŸKüz©opxõ=½vÀ¸È¼·Nß<¨#ı¸×}SçcÖë˜³} âíh8.çµpÀæàÄŒ%…#`x²Î¹Ìù &ãgWÔIùtìœÁLl¹õ>{@ÜÖ.í8³ÆˆôÌº%í—3ºM ø­´¯^Òş*<g†lYÛI·T¶p|`=C¡ãRİ èv4n?Â<xm[ŞÓ¹;… UU}’Š=CAãüª~ŒÅÚóéø¢ª€¥«óÉ9{Aü Í…ãrü´ƒiÒìFZE«[ÄàË€(­rÕ(h<øLúÈ!µ<;7¾3!{¤ú½±¿¾äÃT–IŒLÿF¬ÇWŞ?uwHM?˜º¯{ª:dm†¸é#¬ÓzBRKºwø=ä4`ŒL_­W<Ï¯û@êø¶5§…øA;K~ÚEpš´ÿ8Ì.ràˆ¡`Zj¯¹bëò=‰Ã eâ	FºõÕ¬Äñè­[Æ¹ÖœNHC”ò¹…©
+(}2ÜY]@Ò#<…ã Qá0{db…ªÑ<?b ï8„2ı×è£’Q]³¼ç¨m ^ÑæÁq™;†;¼ö	ë¼ÖÆ,Ó§úK‡Ö›ƒñÍüÊn:I‡xÅ{nDy”O@aø¼1z]ñá¶êªbû' Š‘}qõH]¼â…–é	ÚÊf6ĞÈ#ù!nZ%Ê$.æïæ~­y‘ËÄÏ†xE;ËÙc°9ã0]—1wĞ÷—æ@6BtIQSğK?W]‹~ª¯À±Aøeõªã4ˆWëh?¯ºØÑşcˆbõcãdÂù¯ô£Ù€åSñ÷UÕD=×Û…
+a_å–±\[l9ó²ì3ÉÎ ~Ğö‡ãòføi›c/Œ*à¾ã0=lS¡ìÙ(ÁÓøĞ¼¢¬B…ßo.åı=Œ‰úcÅíİÀèpŒü`úN¯V.›º§5‡ƒ(úõÉÑÿŸöÜ«6FÁ\Ó#X:ş¹ª°t'^Ë¼lî¨º6.HZÑÂ¤´YÆÉiØí5p\¶÷€Ñô~ÿ{U·‰½…Õú8 H˜ô7Ö£ß2}+‚(nE^¬
+Ø¼ÎM ^=™IliUÎ Š€G‡ƒJá,ˆW#÷ÉÆ<îYˆb{aôÿ§ŞöA¼b´wÓ#X&şc:Ü TİBµ<•8Ú;à¸t"ìÖ†ì¨óa“["`ºï°ÆN‚%aW¡:özk-È]®¶F0­B¼Ê§ß³ŞF «F°¦ï ñJ«U#ØS„(İ_XÕ§Ù»B<£¢ÛlÀXßú¼Åä¿0ª½1Ÿ<`$L´.ãÁ5“f; Ëk -0mºØYcx$¹áuıÇXX©0ç`\YO‡x¥ëhæ`¿m°ÕØgs°ŸA`VVS}Ã§A¼ÒïKhs0£*¨[¡è«ã m&rp\E˜íp\l©€ÍÍ®Ø™Ç©•¬á} í-lM¸şdl,^Ùíï ©0¯¼º«âs‡[«ôÇ!Š0|Ù(±_ñácÁùÓ¥;ã»‚« ^ô|bd¦îìh6`C™XWÅúÇéƒS’ß2jìŒØa´¸†iã0ã¡7—ÕŞxZüƒøÅèuˆ®sy!­ò²NÈu}ÒH¾'vWç‘êí>±c!JwÂ[£Öâ`H#ÜÆuİÌÓèÿKÊ¸ ¬Õş€4Äóÿƒ¬ƒiq‚bÏsFÈ>
+iDæùõ]T7…AëÀá¸|Û!HÛ½p\º!!lQXO–úl­iULŸ<¥Ï@„4¢ÕÛ?W×ÔØ½ñ[ëŸ¥;9ôl’µÿğéÔœ]!µhõ[À'ªßÿÓKvrÜ m„ì!c7Æ¿)`lW·¸±tú¼îac?â?u‡DéZ¢ş@cÎù/´-¤¶Âqzª<øNø'ÍmO\„ õl¨BjV*mWô#Ã!h¦uÿ¼waJ3¬3Áš5t´ª»ë"[dĞW˜cœËá ­ŒéíŒ~hôÁ£ÜŞ¼VçîˆùğÑÅÃ;A,ºßĞœ;èšM*v¡q¨’PÆ/ÑC˜ö$>~"Ämİ²ö5V©]Ï†Aª,í8ÃŞ&æd7sÕúÿg„:âRÙy?üã”ySÓÛ@FÿŒ>)rÑy•Ñ²<yÄnâvã=ßöUÍ5ĞæÔxôÚ+±3¼´ñj8F`¶‚„°·…tÍY®èÔY0zyøhe|¹Ö¦_ ë®ŸÈ§ëYùÄBXn6ÃRÍô¼_÷é¯ŒPÖz-ó±k ÷2ˆ9š±æˆ~ı!ºO1üİô—Õ)Ë?¡ıÌ§Ÿşü,}ùİ±a÷cìoË{™		¢²>8†wâ$Šİ°cå×Cqâ†’¿ácØbÀzŒçˆœ‹Nhì´?‹Ñê¹0Ã¥¥}Ä6¤‘ÏÛkê`:¶T¿¹Í‹ß_ïÀàÈı2“€üå ~2òs™±pØrÿß?¯ó`J¤µ0¢#$´]9Y³Ş- !l–û1s†‚5ƒ>Õ×>>áA%°oô»®¦!c]ì;M¶ü†.#döHÖï»®|‡Ì€Ôsä§F¦Ó7ø¼ı›Ûõ‡›˜q.Ìb^û[{'M0´œˆœ&d‘A[ ó`‹(Y8¦°š.êÆ`‚ö´ß	s‹÷w/~nSH³øFŸ¢GN<}(R‰?s®†Ø[xÕÁG=…‹‰îE„ø¡•ZcUnïí™_ÜfôZšaT°3K/qÍ™AjêNÄ½×¹ıò!û"ÚL¤ğ.8¼]˜¿íC.^OWo…j-üŸ¾¢…>(ïÕ9ú	şŒWÖ¹–éé\ı	+©EÅÃÜ•ÿ¿²qw<Éê§XÇù©ÎÃğ‚şª¿×?wIiŠ²¤qªÎ¹ô|—n©ÂŠÌÁşÄŸ}_OÖ*$¤º],•-^HŸ]§#”ƒ*•ÖµOù»4Di¥uÔ~*A‚Ò éº £Ÿã]Ñƒ™|ı°>"€âW}ôlÈX¢ÍÆHâDœ†“p<ççyLÆVØ;a¢6‘ÛèÑp<‰´¾¨Æ˜ÎÃË•¶‡x¡ËÆÚáıHë‹:aŒè©n?U©È.ƒxÁíã;'./„DZ_Ô	cãÖêŸôY|;¤muAtÀtş‰´¾¨Æ€¹õŒÀ1¢} Ö’…x56Fÿ™¢NÉùÏo¦OÌªóäŞ÷ésêuc°–ğyíµ¶˜éã ‘‰!ê„1¢O—2ËàKñ[ÈÄuÂØJğ†'QÙ'"­,ê„1¦¼±4U[a¥>å7ú)£SÔ	ãD©èÏÄ6o)€è2F­¬>b™˜¢Ngú#ºöçù‡]œ¯ËèŞÓ¢$2ñı¾¤QN¦_•
+    IEND®B`‚
+------MultipartBoundary--tpa8xYFYjJnEFdfrdwfWwfhG1qC8o9NWX7hc1MElKP------
